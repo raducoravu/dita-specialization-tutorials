@@ -3,4 +3,14 @@
     <context id="IjOJiZCkYeOwABs" name="DITA Specialization Tutorials">
         <input href="../doc_src/dita-specialization-tutorial.ditamap"/>
     </context>
+    <publication id="webhelp" transtype="webhelp-responsive"/>
+    <deliverable id="d-DITA_Specialization_Tutorials_-_WebHelp-1765527224343" name="DITA Specialization Tutorials - WebHelp">
+        <?description {"content":"DITA Specialization Tutorials - WebHelp"}?>
+        <context idref="IjOJiZCkYeOwABs"/>
+        <output href="webhelp-output"/>
+        <publication idref="webhelp">
+            <param href="cf://templates/Oxygen" name="webhelp.publishing.template"/>
+            <param name="editlink.enable.edit.in.content.fusion.workspace" value="true"/>
+        </publication>
+    </deliverable>
 </project>
