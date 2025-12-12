@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="class-attributes">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="class-attributes">
   <title>Specialization Hierarchy and the <xmlatt>class</xmlatt> Attribute</title>
   <prolog>
     <author>W. Eliot Kimber</author>
@@ -65,4 +65,4 @@
         mileage may vary. Certainly the DITA Open Toolkit is fully specialization
         aware.</p>
   </body>
-</subsection>
+</topic>

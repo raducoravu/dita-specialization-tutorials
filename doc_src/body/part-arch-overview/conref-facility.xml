@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE chapter PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:chapter" "chapter.dtd">
-<chapter
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="topic-id">
   <title>Reuse at the Element Level: The Content Reference Facility</title>
   <shortdesc>DITA provides a powerful use-by-reference facility that allows almost any element to be
@@ -116,7 +116,7 @@ hands inside the car when it's moving&lt;/note>
             then things will be easier. But allowing authors free reign to reuse anything from
             anywhere is probably a non-starter for most environments.</p>
   </body>
-  <subsection
+  <topic
     id="subsection_xoc_zyg_hb">
     <title>Use by reference in the world</title>
     <prolog>
@@ -224,8 +224,8 @@ hands inside the car when it's moving&lt;/note>
         all other XML documentation applications, none of which have an equivalent true
         use-by-reference facility.</p>
     </body>
-  </subsection>
-  <subsection
+  </topic>
+  <topic
     id="ss1">
     <title>Basic Conref: Reusing Single Elements</title>
     <shortdesc>The simplest application of conref is a single element using another single element.</shortdesc>
@@ -317,8 +317,8 @@ hands inside the car when it's moving&lt;/note>
                 order in which conref processing is applied is not mandated by the DITA
                 standard.</p>
     </body>
-  </subsection>
-  <subsection
+  </topic>
+  <topic
     id="subsection_wqk_vaf_id">
     <title>Conkeyref</title>
     <prolog>
@@ -385,8 +385,8 @@ hands inside the car when it's moving&lt;/note>
         for use by reference or as the target of cross references or other
         navigation links.</p>
     </body>
-  </subsection>
-  <subsection
+  </topic>
+  <topic
     id="subsection_yha_epc_ib">
     <title>Conref for maps and topics</title>
     <shortdesc>The DITA content reference facility applies to all DITA content, not just topics. This means you can use conref in maps as well as in topics.</shortdesc>
@@ -428,8 +428,8 @@ hands inside the car when it's moving&lt;/note>
         this subject]</p>
       <p>Note that you cannot use <xmlelement>topicref</xmlelement> within <xmlelement>topic</xmlelement>, where you might have expected it to be allowed. Topicrefs occur only within maps.</p>
     </body>
-  </subsection>
-  <subsection
+  </topic>
+  <topic
     id="subsection_rqq_gto_hb">
     <title>Attribute Merging</title>
     <shortdesc>The attributes on the referencing element and referenced elements are merged according to strict rules.</shortdesc>
@@ -503,8 +503,8 @@ hands inside the car when it's moving&lt;/note>
                 conref and train authors appropriately, as the typical author would never figure out
                 why they weren’t getting the note type they expected.</p>
     </body>
-  </subsection>
-  <subsection
+  </topic>
+  <topic
     id="subsection_jwi_wuo_hb">
     <title>Linking to Referencing Elements</title>
     <shortdesc>You link to the result of conref resolution by linking to the referencing element in the content as authored.</shortdesc>
@@ -591,8 +591,8 @@ hands inside the car when it's moving&lt;/note>
                 in the resolved result so that two uses of the same element in the same topic or map
                 don’t result in duplicate IDs in the resolved result.</p>
     </body>
-  </subsection>
-  <subsection
+  </topic>
+  <topic
     id="subsection_gsu_mxu_hb">
     <title>Content Reference Constraints</title>
     <shortdesc>The content reference facility imposes some constraints on the referencing and
@@ -709,8 +709,8 @@ hands inside the car when it's moving&lt;/note>
         That way, authors will be less likely (or simply unable) to create content references that
         will be rejected by tools that do validate conref constraints.</p>
     </body>
-  </subsection>
-  <subsection
+  </topic>
+  <topic
     id="ss2">
     <title>Reusing a Range of Elements: conref range</title>
     <shortdesc>You can reuse sequences of elements using the conref range facility.</shortdesc>
@@ -810,8 +810,8 @@ hands inside the car when it's moving&lt;/note>
         elements to ensure that all addresses in the resolved result are correct and
         unambiguous.</p>
     </body>
-  </subsection>
-  <subsection
+  </topic>
+  <topic
     id="ss3">
     <title>Unilateral Change: Conref Push (<xmlatt>conaction</xmlatt> attribute)</title>
     <shortdesc>The conref push feature lets you replace elements in, or impose additional elements
@@ -1039,8 +1039,8 @@ hands inside the car when it's moving&lt;/note>
         a given topic, there will only be one result topic. In the case where
         two topics push into the same topic, the result is undefined.</p>
     </body>
-  </subsection>
-  <subsection
+  </topic>
+  <topic
     id="ss4">
     <title>Content Reference Data Management Strategies</title>
     <shortdesc>Management of conref references requires you to follow a few general
@@ -1071,5 +1071,5 @@ hands inside the car when it's moving&lt;/note>
             push.</li>
         </ul></p>
     </body>
-  </subsection>
-</chapter>
+  </topic>
+</topic>

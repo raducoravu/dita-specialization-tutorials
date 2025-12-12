@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="topic-specialization-step-2-5">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="topic-specialization-step-2-5">
   <title>Step 2-5. Declare Element Type Parameter Entities</title>
   <body>
     <p>In <filepath>faq-question.mod</filepath>, find the comment labeled <q>ELEMENT NAME
@@ -58,4 +58,4 @@
             because the toolkit will not know that <xmlelement>faq-question</xmlelement> is actually a
             specialization of <xmlelement>concept</xmlelement>.</p>
   </body>
-</subsection>
+</topic>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="topic-spec-step-4-1">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="topic-spec-step-4-1">
   <title>Topic Specialization Step 4-1: Create Initial Toolkit Plugin Components</title>
   <body>
     <p>Outside the toolkit, create the directory <filepath>org.example.faq-question.html</filepath>
@@ -51,4 +51,4 @@
             to use XSLT 2 with the Toolkit. It doesn't matter that the base transformation modules
             are XSLT 1 modules.</p>
   </body>
-</subsection>  
+</topic>  

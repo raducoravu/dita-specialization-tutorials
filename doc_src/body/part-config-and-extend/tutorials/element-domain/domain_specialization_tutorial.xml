@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="domain-specialization-tutorial">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="domain-specialization-tutorial">
   <title>Element Domain Specialization Tutorial</title>
   <shortdesc>Goal: Declare an element domain vocabulary module that provides elements to identify
         mentions of XML constructs: element types, attributes, text entities, parameter entities,
@@ -72,4 +72,4 @@
             mention elements within maps (for example, within titles defined in maps and metadata)
             and topics.</p>
   </body>
-</subsection>
+</topic>

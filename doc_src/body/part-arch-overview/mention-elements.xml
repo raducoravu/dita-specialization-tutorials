@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd">
-<subsection
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="topic-id">
   <title>Mention Elements: Term and Keyword</title>
   <shortdesc>DITA provides a general set of element types for capturing mentions of things that are often defined elsewhere in the information set and to which the mention may be implicitly or explicitly linked.</shortdesc>
@@ -97,4 +97,4 @@
             way, but what DITA means by <xmlelement>keyword</xmlelement> and <xmlelement>term</xmlelement> is
             exactly what I mean by <q>mention.</q></p>
   </body>
-</subsection>
+</topic>

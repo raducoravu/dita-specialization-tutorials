@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="step2-4">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="step2-4">
   <title>Step 2-4. Declare <xmlatt>class</xmlatt> Attributes</title>
   <body>
     <p>For each element type, create a separate attribute declaration that defines the <xmlatt>class</xmlatt> attribute value: <codeblock>
@@ -187,4 +187,4 @@
     <p>You should be seeing that this is a largely mechanical process that is mostly cutting and pasting of repeated declaration patterns. All of the actual thinking goes into the element type design. The declaration activity is purely mechanical.</p>
     <p>In particular, having created the first declaration for <xmlelement>xmlelem</xmlelement>, you copy it, paste it, and simply change "xmlelem" to the new element type name everywhere it occurs in that element's declarations.</p>
   </body>
-</subsection>
+</topic>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE chapter PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:chapter" "chapter.dtd">
-<chapter
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="topic-id">
   <title>Document Type Shell Tutorial</title>
   <shortdesc>Goal: Define a document type shell that omits domains you don't want and integrates a third-party domain you do want.</shortdesc>
@@ -35,4 +35,4 @@
       format="dita"/> for details.</p>
     <p>(There is an implicit message here, which is that tools that depend on the Toolkit tend to simplify the overall task of DITA system configuration and maintenance by limiting the number of system components that have to be created or updated to reflect a change to vocabulary components. This is one reason that OxygenXML, in particular, serves as an effective DITA development and authoring environment: it uses the Toolkit directly to access all DITA-related vocabulary components. This, coupled with Oxygen's built-in specialization awareness, means that you can deploy your local shells, constraint modules, and vocabulary modules to one place and all DITA editing and processing through Oxygen just works.)</p>
   </body>
-</chapter>
+</topic>

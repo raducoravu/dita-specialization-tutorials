@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="domain-att-spec-step-3">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="domain-att-spec-step-3">
   <title>Attribute Specialization Step 3: Test the Declarations</title>
   <body>
     <p>Step 3 is to test your declarations to make sure they work. This is simply a matter of creating an XML document that uses your local document type shell as its DTD and verifying that the <xmlatt>phase-of-moon</xmlatt> attribute is now available on all elements that allow the selection attributes.</p>
@@ -11,4 +11,4 @@
             specialization of <xmlatt>props</xmlatt> or ignore the attribute completely and not do
             any filtering or flagging.</p>
   </body>
-</subsection>
+</topic>

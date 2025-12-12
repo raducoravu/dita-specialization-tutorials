@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE chapter PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:chapter" "chapter.dtd">
-<chapter
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="topic-id">
   <title>XSD-Based Constraint and Vocabulary Modules</title>
   <shortdesc>This chapter explores the details of using XSD to define constraint modules and vocabulary modules.</shortdesc>
@@ -19,19 +19,19 @@
       format="dita"/>).</p>
     <p>To successfully create XSD-based constraint modules you must understand how the redefine facility works and how to work around its limitations when necessary.</p>
   </body>
-  <subsection
+  <topic
     id="ss1">
     <title>The Redefine Feature and Its Limitations</title>
     <body>
       <p>The XSD redefine feature allows one schema document to unilaterally modify the definition of a named group defined in another XSD document. This is analogous to the use of parameter entities in DTDs to enable redefinition of part of a content model or attribute list by redefinition of a parameter entity. However, the XSD redefine feature is not exactly equal to parameter entities. In particular, the new group must provide a one-to-one match for the items ("particles") in the group being redefined. This means that you cannot simply name a group and then change it however you want.</p>
       <p>[TBD: More details here]</p>
     </body>
-  </subsection>
-  <subsection
+  </topic>
+  <topic
     id="ss2">
     <title>Extension vs. Restriction</title>
     <body>
       <p>TBD: Discuss the difference between extension and restriction and how to tell when you need to do one or the other.</p>
     </body>
-  </subsection>
-</chapter>
+  </topic>
+</topic>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="step2-2">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="step2-2">
   <title>Step 2-2. Declare Element Type Name Parameter Entities</title>
   <body>
     <p>For each element type, declare a parameter entity that reflects the element type name: <codeblock>
@@ -18,4 +18,4 @@
 <b>&lt;!ENTITY % xmlelem    "xmlelem"  ></b>  </codeblock></p>
     <p>These entities allow the element type to be used in content models via the parameter entity. Document type shells can then integrate further specializations of this element type by redeclaring the parameter entity to include specializations of the element, which then are automatically allowed wherever the base element type is allowed. You can also use the parameter entity in constraint modules to specifically allow only the element type in place of its base type.</p>
   </body>
-</subsection>
+</topic>

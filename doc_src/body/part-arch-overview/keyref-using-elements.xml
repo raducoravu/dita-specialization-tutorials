@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd">
-<subsection
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="keyref-using-elements">
   <title>Elements that can make key references</title>
   <prolog>
@@ -203,4 +203,4 @@ Toner Cartridge Access Panel&lt;/title>
       key to get different results in different parts of the publication, at least not in DITA
       1.2.</p>
   </body>
-</subsection>
+</topic>

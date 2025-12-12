@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd">
-<subsection
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="key-spaces">
   <title>Constructing key spaces</title>
   <prolog>
@@ -305,4 +305,4 @@
             and you can’t construct the key space until you have constructed the map tree.</p>
     <p>This implies that there are conceptually at least two passes in the processing of the map: a first pass to construct the map tree and  key space and a second pass to construct the full map tree, taking any indirect map references into account. The output of the second step would then be the input to any additional processing applied to the map.</p>
   </body>
-</subsection>
+</topic>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="domain-spec-step-three">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="domain-spec-step-three">
   <title>Element Domain Specialization Step 3: Declare The Module Entities File</title>
   <shortdesc>The module entities file declares entities that are used within document type shell DTDs to integrate the module into the shell.</shortdesc>
   <body>
@@ -16,4 +16,4 @@
             named <q><i>modulename</i>-d-<i>basetype</i>,</q> so in this case, the entity will be
             named <q>xml-d-keyword.</q></p>
   </body>
-</subsection>
+</topic>

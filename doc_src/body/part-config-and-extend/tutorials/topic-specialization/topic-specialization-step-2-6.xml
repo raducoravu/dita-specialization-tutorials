@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="topic-specialization-step-2-6">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="topic-specialization-step-2-6">
   <title>Step 2-6. Declare FAQ Question <xmlatt>class</xmlatt> Attributes</title>
   <prolog>
     <author>W. Eliot Kimber</author>
@@ -40,4 +40,4 @@
             elements as DITA elements, but the declaration is not quite complete. We still need to
             set up the <xmlatt>domains</xmlatt> attribute for this specialization.</p>
   </body>
-</subsection>  
+</topic>  

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="step2-1">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="step2-1">
   <title>Step 2-1. Create New .mod File</title>
   <body>
     <p>Create a new file named "xmlDomain.mod" and put a descriptive header comment at the top: <codeblock>
@@ -15,4 +15,4 @@
           
      ==================================================== --></codeblock> </p>
   </body>
-</subsection>
+</topic>

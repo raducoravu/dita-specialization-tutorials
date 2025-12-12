@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE chapter PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:chapter" "chapter.dtd">
-<chapter
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="topic-id">
   <title>Reuse at the Element Level: The Content Reference Facility</title>
   <shortdesc>DITA provides a powerful use-by-reference facility that allows almost any element to be used by reference from maps or topics as long as specific constraints are mets. This facility is the "content reference facility" or "conref" for short. </shortdesc>
@@ -26,7 +26,7 @@
     <p>The point is that while use-by-reference is powerful and can address difficult business challenges it also introduces complexity that must be considered carefully. In my own experience of more than 20 years working with and building systems for complex documents I have found that use-by-reference is used much less frequently than many people expect when they first move to XML, where "reuse" is a key selling point. I think this is because people find that the management cost and source data complexity often outweighs the benefit, or at least appears to. That is, sometimes it's easier (or appears to be easier) to just make copies and manage the copies than it is to use direct use-by-reference.</p>
     <p>Your mileage will vary of course, and you have to think carefully about local requirements, the tools you have to manage your content, what your authors are capable of or willing to do, and what your business goals and requirements demand. In general, if you can limit use-by-reference to either the topic level (done through maps) or to specific cases where the benefit is clear, such as re-used warnings or steps, then things will be easier. But allowing authors free reign to reuse anything from anywhere is probably a non-starter for most environments.</p>
   </body>
-  <subsection
+  <topic
     id="subsection_xoc_zyg_hb">
     <title>Use by reference in the world</title>
     <prolog>
@@ -59,8 +59,8 @@
       <p>This test applies to <i>all</i> forms of identifier and addresses that use them, not just XML IDs. I use XML IDs in the statement of the test because they're obvious. But the requirement applies to any form of address whatsover, since the point is that addresses as authored must continue to be correct in the result of resolving the references, whatever "correct" means. XML IDs are just an obvious way of revealing the problem.</p>
       <p>Because managing IDs and their attendant references requires processing that understands the semantics of the content, not just its syntax, true use by reference facilities cannot be implemented at the syntax level, that is, at the parsing level. That is the primary reason why both external parsed entities and XInclude fail, because they are syntactic, not semantic. By contrast, DITA's conref facility and its map facility are semantic, being done by a DITA-aware processor following parsing of the individual XML documents involved. That means the processors have full knowledge of both the original data content and the semantics of the identifiers and addresses and can therefore do whatever needs to be done to ensure that the resolved result is correct. In the case of element IDs and references to them, DITA has specific rules that ensure that authors can accurately and reliably create links and addresses that are correct as authored and will be correct following all use by reference resolution. This is a significant way in which DITA distinguishes itself from essentially all other XML documentation applications, none of which have an equivalent true use-by-reference facility.</p>
     </body>
-  </subsection>
-  <subsection
+  </topic>
+  <topic
     id="ss1">
     <title>Basic Conref: Reusing Single Elements</title>
     <shortdesc>The simplest application of conref is a single element using another single element.</shortdesc>
@@ -166,8 +166,8 @@
       <p>In this example the ID of the note is just "note-01" but in practice you would probably give specific elements more meaningful IDs that reflect their rhetorical purpose, e.g., "dont-run-with-scissors" for the "Don't run with scissors" danger admonition. </p>
       <p>Because keyref requires that each different topic bound to a given key use the same ID for elements referenced in the context of that key, it makes sense to use meaningful IDs that make it clearer what the purpose of a given element is, whether it's intended for use-by-reference or as the target of cross-references or other navigation links.</p>
     </body>
-  </subsection>
-  <subsection
+  </topic>
+  <topic
     id="subsection_yha_epc_ib">
     <title>Conref for maps and topics</title>
     <shortdesc>The DITA content reference facility applies to all DITA content, not just topics. This means you can use conref in maps as well as in topics.</shortdesc>
@@ -184,8 +184,8 @@
       <p>The main caveat for conref within maps is that you cannot reliably use conref to configure or create key definitions, for the simple reason that you cannot resolve any key-based conrefs without first having constructed the key space. If you used key-based conrefs to construct key-defining topicrefs those topicrefs can have no effect on the key space. While a processor could choose to resolve all direct conrefs, then build the key space, and then resolve all key-based conrefs, DITA does not require that processors work in that way. So any map construction scheme that relied on some interaction between conref and key definitions would be dicey at best.</p>
       <p>When doing conref within maps keep in mind that the fragment identifiers for map elements are simply bare <xmlatt>id</xmlatt> values, because each map document is a single ID namespace (as though all <xmlatt>id</xmlatt> attributes had been declared as type ID).</p>
     </body>
-  </subsection>
-  <subsection
+  </topic>
+  <topic
     id="subsection_rqq_gto_hb">
     <title>Attribute Merging</title>
     <shortdesc>The attributes on the referencing element and referenced elements are merged according to strict rules.</shortdesc>
@@ -234,8 +234,8 @@
 &lt;/task></codeblock></p>
       <p>This may seem like something of an edge case but in fact it's probably quite likely as the DITA 1.2 constraint facility makes it easy to tune content models and attribute declarations to match local editorial rules and to make things easier for authors. But having done that, in particular having set defaults on attributes that do not normally have a default value, you must be aware of the implications for conref and train authors appropriately, as the typical author would never figure out why they weren't getting the note type they expected.</p>
     </body>
-  </subsection>
-  <subsection
+  </topic>
+  <topic
     id="subsection_jwi_wuo_hb">
     <title>Linking to Referencing Elements</title>
     <shortdesc>You link to the result of conref resolution by linking to the referencing element in the content as authored.</shortdesc>
@@ -301,8 +301,8 @@
       <p>This reflects the general principle that all addresses in the source data should reflect the data <i>as authored</i>, not as rendered. By pointing to the referencing element the author makes their intent clear and provides enough information to the processor to allow it to do the right thing. By the rules of attribute merging the <xmlatt>id</xmlatt> attribute of the referencing element will be the effective value following conref resolution, so even if conref is implemented as a literal transform the result of that transform will correctly represent the author's intent and the xref will work.</p>
       <p>Or said another way: in the general case, the IDs of referenced elements are only interesting for the purpose of creating conref links, they should have no effect on the content reference result. In the case where you need to create a link to the conref result, you must put an ID on the referencing element. In the case where you don't need to link to the conref result, the effective value of the <xmlatt>id</xmlatt> attribute following conref resolution has no effect on anything because nothing points to it (other than the original referencing element).</p>
     </body>
-  </subsection>
-  <subsection
+  </topic>
+  <topic
     id="subsection_gsu_mxu_hb">
     <title>Content Reference Constraints</title>
     <shortdesc>The content reference facility imposes some constraints on the elements that can be related together.</shortdesc>
@@ -349,8 +349,8 @@
       <p>In practice you should be working in an environment where all the topic and map types are managed as a whole and therefore the definer of the document type shells can ensure that all the topic and map types use either exactly the same domains and constraints as appropriate (e.g., all specializations of <xmlelement>task</xmlelement> use the same constraints and domains) or that map and topic types intended to hold reusable elements are as or more constrained than any map or topic type that would use those elements. In the second case, this might mean creation of topic or map types that use the intersection of all domains that are used by the different topic or map types that would use those elements.</p>
       <p>Finally, note that many DITA-aware tools do not actually check or validate conref constraints, even though they should. This puts the burden on the people setting up DITA environments and sets of map and topic types and document type shells to both ensure that the conref constraints will not violated by references that authors will or are likely to create and to train authors to understand that there are constraints and what they are, so that authors are less likely (or simply unable) to create content references that will be rejected by tools that do validate conref constraints.</p>
     </body>
-  </subsection>
-  <subsection
+  </topic>
+  <topic
     id="ss2">
     <title>Reusing a Range of Elements: conref range</title>
     <shortdesc>You can reuse sequences of elements using the conref range facility.</shortdesc>
@@ -403,8 +403,8 @@
       <p>While the start and end elements of a range must be of the same or more specialized types, that is not true of intermediate elements, so you could have a range of steps that includes one or more <xmlelement>stepsection</xmlelement> elements between the first and last <xmlelement>step</xmlelement> elements. Or you could use a <xmlelement>p</xmlelement> element to point to a range of elements bracketed by <xmlelement>p</xmlelement> but including anything valid in the parent element type.</p>
       <p>The rules for attribute merging are a bit more complicated in that attributes specified on the referencing element get merged to all the sibling elements in the referenced range (but not to descendants of the elements in the range). The values of <xmlatt>id</xmlatt> attributes on elements other than the first and last member of the range are preserved, meaning that references from one member of the range to another member of the range should work following reference resolution. In a conref processor that creates a literal result document it is up to the processor to rewrite IDs and references in the referenced elements to ensure that all addresses in the resolved result are correct and unambiguous.</p>
     </body>
-  </subsection>
-  <subsection
+  </topic>
+  <topic
     id="ss3">
     <title>Unilateral Change: Conref Push (<xmlatt>conaction</xmlatt> attribute)</title>
     <shortdesc>The conref push feature lets you replace elements in or impose additional elements into topics or maps, allowing you to change or extend content you can't or shouldn't modify directly.</shortdesc>
@@ -588,8 +588,8 @@
       <p>Here the pushing topic contains two pushes, one to the topic as used with the key "generic-task-01-prod-A" and one to the topic as used with the key "generic-task-01-prod-B". The processing result should be that two distinct copies of the generic task are created in the output, one for each use and reflecting the different pushes.</p>
       <p>Note that in this example the title text is managed through a <xmlelement>ph</xmlelement> element within the <xmlelement>title</xmlelement> element. This is because the content model for <xmlelement>topic</xmlelement> allows exactly one <xmlelement>title</xmlelement> element, so in order to be able to use a single pushing topic to push multiple title text values, I had to move the title text into the <xmlelement>ph</xmlelement> element, which can of course occur multiple titles within <xmlelement>title</xmlelement>.</p>
     </body>
-  </subsection>
-  <subsection
+  </topic>
+  <topic
     id="ss4">
     <title>Content Reference Data Management Strategies</title>
     <shortdesc>Management of conref references requires following a few general practices.</shortdesc>
@@ -611,5 +611,5 @@
         <li>Use domain and constraint modules consistently to ensure that all allowed or appropriate referencing and referenced documents satisfy the content reference constraint rules for consistency of vocabulary and constraint use.</li>
         </ul></p>
     </body>
-  </subsection>
-</chapter>
+  </topic>
+</topic>

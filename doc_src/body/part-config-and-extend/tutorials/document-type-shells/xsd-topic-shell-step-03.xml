@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd">
-<subsection
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="topic-id">
   <title>XSD Topic Type Shell Tutorial Step 3: Add Reference to a New Domain</title>
   <body>
@@ -129,4 +129,4 @@
       format="dita"/>.</p>
     <p>This tutorial shows how to create a topic type shell. Creating map type shells is exactly the same.</p>
   </body>
-</subsection>
+</topic>

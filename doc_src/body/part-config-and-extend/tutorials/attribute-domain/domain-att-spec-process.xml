@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="domain-attribute-specialization-tutorial">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="domain-attribute-specialization-tutorial">
   <title>Attribute Specialization Tutorial</title>
   <shortdesc>Goal: Declare an attribute domain vocabulary module that provides a new conditional (property) attribute.</shortdesc>
   <prolog>
@@ -40,4 +40,4 @@
             <q>waxing,</q> etc.).</p>
     <p>Note that an attribute domain always defines exactly one attribute. You cannot declare multiple attributes in a single attribute domain module.</p>
   </body>
-</subsection>
+</topic>

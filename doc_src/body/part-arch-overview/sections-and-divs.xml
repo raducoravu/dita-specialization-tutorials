@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd">
-<subsection
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="topic-id">
   <title>Sections and Divisions: Organizing Topic Body Content</title>
   <shortdesc>Topic bodies may be organized into a single level of titled containers (sections) or contain hierarchies of untitled containers (body divisions). Sections may also contain hierarchies of untitled containers (section divisions).</shortdesc>
@@ -61,4 +61,4 @@
       processing effect of generating titles, but they may not have arbitrary titles, as that would
       violate the principle that <q>only topics may define title hierarchies.</q></p>
   </body>
-</subsection>
+</topic>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd">
-<subsection
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="topic-id">
   <title>DTD Topic Type Shell Creation Tutorial</title>
   <shortdesc>This tutorial demonstrates the process of creating a DTD-syntax document type shell.</shortdesc>
@@ -20,4 +20,4 @@
                 format="dita"/>).</p>
     <p>The other tutorials also include instructions for creating shells that integrate the components created in those tutorials. This tutorial shows you the basic process for shell creation, showing both removing existing references and adding new references.</p>
   </body>
-</subsection>
+</topic>

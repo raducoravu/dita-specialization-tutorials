@@ -1,65 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE pub-component-map PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:pub-component-map" "pub-component-map.dtd">
-<pub-component-map>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
   <title>Element Domain Specialization Tutorial</title>
-  <chapter
+  <topicref
     collection-type="sequence"
     keys="element-domain-specialization-tutorial">
-    <subsection
+    <topicref
       href="domain-spec-process-overview.xml"/>
-    <subsection
+    <topicref
       href="domain-spec-process-step-1.xml"/>
-    <subsection
+    <topicref
       href="domain-spec-process-step-2.xml"
       collection-type="sequence">
-      <subsection
+      <topicref
         href="domain-spec-process-step-2-1.xml"/>
-      <subsection
+      <topicref
         href="domain-spec-process-step-2-2.xml"/>
-      <subsection
+      <topicref
         href="domain-spec-process-step-2-3.xml"/>
-      <subsection
+      <topicref
         href="domain-spec-process-step-2-4.xml"/>
-    </subsection>
-    <subsection
+    </topicref>
+    <topicref
       href="domain-spec-process-step-3.xml"
       collection-type="sequence">
-      <subsection
+      <topicref
         href="domain-spec-process-step-3-1.xml"/>
-      <subsection
+      <topicref
         href="domain-spec-process-step-3-2.xml"/>
-      <subsection
+      <topicref
         href="domain-spec-process-step-3-3.xml"/>
-    </subsection>
-    <subsection
+    </topicref>
+    <topicref
       href="domain-spec-process-step-4.xml"
       collection-type="sequence">
-      <subsection
+      <topicref
         href="domain-spec-process-step-4-1.xml"/>
-      <subsection
+      <topicref
         href="domain-spec-process-step-4-2.xml"/>
-      <subsection
+      <topicref
         href="domain-spec-process-step-4-3.xml"/>
-      <subsection
+      <topicref
         href="domain-spec-process-step-4-4.xml"/>
-      <subsection
+      <topicref
         href="domain-spec-process-step-4-5.xml"/>
-      <subsection
+      <topicref
         href="domain-spec-process-step-4-6.xml"/>
-      <subsection
+      <topicref
         href="domain-spec-process-step-4-7.xml"/>
-    </subsection>
-    <subsection
+    </topicref>
+    <topicref
       href="domain-spec-process-step-5.xml"
       collection-type="sequence">
-      <subsection
+      <topicref
         href="domain-spec-process-step-5-1.xml"/>
-      <subsection
+      <topicref
         href="domain-spec-process-step-5-2.xml"/>
-      <subsection
+      <topicref
         href="domain-spec-process-step-5-3.xml"/>
-    </subsection>
-    <subsection
+    </topicref>
+    <topicref
       href="domain-spec-xsd.xml"/>
-  </chapter>
-</pub-component-map>
+  </topicref>
+</map>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE chapter PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:chapter" "chapter.dtd">
-<chapter
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="chapter-id">
   <title>Setting Up Your Development Environment</title>
   <shortdesc>There are many ways to set up a productive DITA development environment. This chapter
@@ -62,4 +62,4 @@
         useful to have a separate standalone copy. </li>
       </ul></p>
   </body>
-</chapter>
+</topic>

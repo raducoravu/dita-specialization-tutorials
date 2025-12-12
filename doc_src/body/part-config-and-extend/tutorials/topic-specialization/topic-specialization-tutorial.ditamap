@@ -1,52 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE pub-component-map PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:pub-component-map" "pub-component-map.dtd">
-<pub-component-map>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
   <title>Topic Specialization Tutorial</title>
-  <chapter
+  <topicref
     href="topic-specialization-tutorial.xml">
-    <subsection
+    <topicref
       href="topic-spec-process-overview.xml"/>
-    <subsection
+    <topicref
       href="topic-specialization-step-1.xml"/>
-    <subsection
+    <topicref
       href="topic-specialization-step-2.xml"
       collection-type="sequence">
-      <subsection
+      <topicref
         href="topic-specialization-step-2-1.xml"/>
-      <subsection
+      <topicref
         href="topic-specialization-step-2-2.xml"/>
-      <subsection
+      <topicref
         href="topic-specialization-step-2-3.xml"/>
-      <subsection
+      <topicref
         href="topic-specialization-step-2-4.xml"/>
-      <subsection
+      <topicref
         href="topic-specialization-step-2-5.xml"/>
-      <subsection
+      <topicref
         href="topic-specialization-step-2-6.xml"/>
-      <subsection
+      <topicref
         href="topic-specialization-step-2-7.xml"/>
-    </subsection>
-    <subsection
+    </topicref>
+    <topicref
       href="topic-specialization-step-3.xml"/>
-    <subsection
+    <topicref
       href="topic-specialization-step-4.xml"
       collection-type="sequence">
-      <subsection
+      <topicref
         href="topic-specialization-step-4-1.xml"/>
-      <subsection
+      <topicref
         href="topic-specialization-step-4-2.xml"/>
-      <subsection
+      <topicref
         href="topic-specialization-step-4-3.xml"/>
-      <subsection
+      <topicref
         href="topic-specialization-step-4-4.xml"/>
-      <subsection
+      <topicref
         href="topic-specialization-step-4-5.xml"/>
-      <subsection
+      <topicref
         href="topic-specialization-step-4-4cont.xml"/>
-      <subsection
+      <topicref
         href="topic-specialization-step-4-6.xml"/>
-    </subsection>
-    <subsection
+    </topicref>
+    <topicref
       href="topic-specialization-xsd.xml"/>
-  </chapter>
-</pub-component-map>
+  </topicref>
+</map>

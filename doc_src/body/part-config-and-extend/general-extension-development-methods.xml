@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd">
-<subsection
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="topic-id">
   <title>General Guidance for Developing New Shells and Modules</title>
   <prolog>
@@ -65,4 +65,4 @@
             back up the repository itself regularly).</p></li>
       </ul></p>
   </body>
-</subsection>
+</topic>

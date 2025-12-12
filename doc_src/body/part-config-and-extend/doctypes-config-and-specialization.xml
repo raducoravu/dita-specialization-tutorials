@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd">
-<subsection
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="ss5">
   <title>DITA Document Types, Configuration, and Specialization</title>
   <body>
@@ -70,4 +70,4 @@
   </body>
   
   
-</subsection>
+</topic>

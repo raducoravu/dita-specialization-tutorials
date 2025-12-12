@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd">
-<subsection
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="topic-id">
   <title>Step 2.7: Define <xmlatt>domains</xmlatt> Attribute Contribution Entity (.ent File)</title>
   <body>
@@ -26,7 +26,7 @@
          "faq-question.ent"
 >%faq-question-dec;</codeblock></p>
     <p>Note that the publid ID is just the filename. This is just for testing purposes. For production use you would use an appropriate URN or public ID.</p>
-    <p>Find the declaration for the <textent>included-domains</textent> text entity and add a reference to the entity <textent>faq-question-att</textent> to it. It should look like this:<codeblock>&lt;!ENTITY included-domains 
+    <p>Find the declaration for the <codeph>included-domains</codeph> text entity and add a reference to the entity <codeph>faq-question-att</codeph> to it. It should look like this:<codeblock>&lt;!ENTITY included-domains 
                         "
                          <b>&amp;faq-question-att;</b>
                          &amp;hi-d-att; 
@@ -41,4 +41,4 @@
             domains.</p>
     <p>At this point the new topic module is complete. All that remains is to assign appropriate public identifiers to the .mod, .ent, and .dtd files and package it as an Open Toolkit plugin so that the module can be used for production.</p>
   </body>
-</subsection>
+</topic>

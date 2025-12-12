@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="domain-spec-step-4-6">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="domain-spec-step-4-6">
   <title>Step 4-6. Include .mod Declaration Set</title>
   <prolog>
     <author>W. Eliot Kimber</author>
@@ -22,4 +22,4 @@
     <p>As for the .ent file, the actual system identifier needs to reflect the actual
         location of your version of xmlDomain.mod.</p>
   </body>
-</subsection>
+</topic>

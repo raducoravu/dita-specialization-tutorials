@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE chapter PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:chapter" "chapter.dtd">
-<chapter
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="topic-id">
   <title>Configuring and Extending the DITA Open Toolkit</title>
   <prolog>
@@ -16,68 +16,68 @@
     <p>But most DITA users will be using systems that integrate or use the Open Toolkit in one way or another. Therefore, as a DITA Practitioner you must have at least some familiarity with the Toolkit. But it is likely that a large part of your task as a system developer or maintainer will be to develop and maintain components of the Toolkit itself.</p>
     <p>This chapter is intended to give you a general understanding of the Open Tookit: how it works, how to run it, how to configure it. It is not a tutorial on how to extend or customize specific transformation types. See <cite>[Reference to Leigh's book]</cite> for more detailed discussion of how to customize and extend the Open Toolkit.</p>
   </body>
-  <subsection
+  <topic
     id="ss1">
     <title>The Architecture of the Open Toolkit</title>
     <shortdesc>The Open Toolkit is a sequence of independent processors applied in a (logical) pipeline that serve to perform both generic and ouput-specific processing on DITA documents. The Toolkit enables extension through a general plugin mechanism.</shortdesc>
-    <subsection
+    <topic
       id="ss11">
       <title>Major Components of the Open Toolkit</title>
       <body>
         <p>FIXME: Write this section.</p>
       </body>
-    </subsection>
-    <subsection
+    </topic>
+    <topic
       id="ss12">
       <title>Understanding The Toolkit's Extension and Integration Facility</title>
       <shortdesc>The Toolkit enables plugins through an integration facility that manages dependencies among plugins and automates the literal integration of new components with existing components.</shortdesc>
       <body>
         <p>FIXME: Write this section</p>
       </body>
-    </subsection>
-    <subsection
+    </topic>
+    <topic
       id="ss13">
       <title>Understanding the Toolkit's General-Purpose Preprocessing Features</title>
       <body>
         <p>FIXME: Write this section.</p>
       </body>
-    </subsection>
-  </subsection>
-  <subsection
+    </topic>
+  </topic>
+  <topic
     id="subsection_lwe_zag_id">
     <title>Configuring Open Toolkit Plugins</title>
     <shortdesc>This section describes how to define and configure Open Toolkit plugins.</shortdesc>
-  </subsection>
-  <subsection
+  </topic>
+  <topic
     id="ss2">
     <title>Plugins for Vocabulary and Constraint Modules ("doctype plugins")</title>
     <shortdesc>Because the toolkit manages a master entity resolution catalog, packaging your vocabulary modules as Toolkit plugins makes deploying custom vocabulary and constraint modules easy and convenient.</shortdesc>
     <body>
       <p>FIXME: Write this section.</p>
     </body>
-  </subsection>
-  <subsection
+  </topic>
+  <topic
     id="ss3">
     <title>Plugins That Extend Other Transformation Types</title>
     <shortdesc>Most Toolkit transformation types enable unilateral extension by other plugins.</shortdesc>
     <body>
       <p>FIXME: Write this section.</p>
     </body>
-  </subsection>
-  <subsection
+  </topic>
+  <topic
     id="ss4">
     <title>Plugins That Provide New Transformation Types</title>
     <shortdesc>You can extend the Toolkit by implementing new transformation types.</shortdesc>
     <body>
       <p>FIXME: Write this section.</p>
     </body>
-  </subsection>
-  <subsection
+  </topic>
+  <topic
     id="ss5">
     <title>Implementing Map-Driven XSLT Processing</title>
     <shortdesc>Using XSLT 2 and taking advantage of the Toolkit's preprocessing, it is relatively easy to implement sophisticated map-driven processing.</shortdesc>
     <body>
       <p>FIXME: Write this section. Use the example of a process that produces a report of all the graphics used in a map and which topics use them.</p>
     </body>
-  </subsection>
-</chapter>
+  </topic>
+</topic>

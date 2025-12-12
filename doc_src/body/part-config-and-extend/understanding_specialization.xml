@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE chapter PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:chapter" "chapter.dtd">
-<chapter
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="understanding-specialization">
   <title>Understanding Configuration and Specialization</title>
   <shortdesc>Before you can design and implement your own configurations and specializations you
@@ -35,4 +35,4 @@
     <p>In short, one can see DITA as an architecture for the management of XML vocabularies. </p>
     <p>These tutorials show you how to apply the architecture to specific types of requirements.</p>
   </body>
-</chapter>
+</topic>

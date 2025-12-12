@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="topic-spec-step-4-6">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="topic-spec-step-4-6">
   <title>Topic Specialization Step 4-6: Implement CSS Styles</title>
   <body>
     <p>The DITA Open Toolkit provides a general framework for using CSS stylesheets with the HTML
@@ -66,4 +66,4 @@
     you can add JavaScript to show or hide the answer details, but that's beyond the scope of this tutorial.</p>
     <p>That's it, you're done.</p>
   </body>
-</subsection>  
+</topic>  

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="topic-spec-step-4-3">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="topic-spec-step-4-3">
   <title>Topic Specialization Step 4-3: Copy Template Contents from Base XSLTs</title>
   <body>
     <p>In the Open Toolkit distribution, find the file <filepath>dita2htmlImpl.xsl</filepath>. It should be in the <filepath>xsl/xslhtml</filepath> directory.</p>
@@ -113,4 +113,4 @@
     <p>Once you have verified that everything is working as expected, you are ready to start modifying
     the processing.</p>
   </body>
-</subsection>  
+</topic>  

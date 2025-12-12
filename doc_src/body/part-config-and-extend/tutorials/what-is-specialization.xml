@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="what-is-specialization">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="what-is-specialization">
   <title>What is DITA Specialization?</title>
   <prolog>
     <author>W. Eliot Kimber</author>
@@ -53,4 +53,4 @@
         generally keep things consistent. Once you understand the patterns and how the pieces fit together, you will
         see that creating new specializations and configurations is remarkably easy.</p>
   </body>
-</subsection>
+</topic>

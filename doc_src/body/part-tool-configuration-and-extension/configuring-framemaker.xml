@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE chapter PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:chapter" "chapter.dtd">
-<chapter
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="topic-id">
   <title>Configuring and Extending FrameMaker</title>
   <prolog>
@@ -20,4 +20,4 @@
         author="WEK">Discuss how to configure FrameMaker to use new vocabulary modules. Discuss FrameMaker's extension facilities.</draft-comment>
     </p>
   </body>
-</chapter>
+</topic>

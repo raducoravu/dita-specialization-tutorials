@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="topic-specialization-step-2-3">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="topic-specialization-step-2-3">
   <title>Step 2-3. Create New .mod File and Integrate Into Shell</title>
   <body>
     <p>Find the file <filepath>concept.mod</filepath> in the regular DITA DTD distribution and copy
@@ -64,4 +64,4 @@
             Essentially, we start with where we want to end up and then work backwards until we get
             there.</note>
   </body>
-</subsection>
+</topic>

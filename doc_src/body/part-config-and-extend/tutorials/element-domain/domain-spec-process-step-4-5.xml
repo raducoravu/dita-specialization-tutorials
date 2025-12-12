@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="domain-spec-step-4-5">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="domain-spec-step-4-5">
   <title>Step 4-5. Update <xmlatt>domains</xmlatt> attribute with new domain</title>
   <prolog>
     <author>W. Eliot Kimber</author>
@@ -10,15 +10,15 @@
     </copyright>    
   </prolog>
   <body>
-    <p>Add the XML domain to the <xmlatt>domains</xmlatt> attribute declaration. In concept.dtd, find the comment that says "DOMAINS ATTRIBUTE OVERRIDE". Update the <textent>included-domains</textent> entity declaration to include the <textent>xml-d-att</textent> text entity: <codeblock>
+    <p>Add the XML domain to the <xmlatt>domains</xmlatt> attribute declaration. In concept.dtd, find the comment that says "DOMAINS ATTRIBUTE OVERRIDE". Update the <codeph>included-domains</codeph> entity declaration to include the <codeph>xml-d-att</codeph> text entity: <codeblock>
 &lt;!ENTITY included-domains 
    "&amp;hi-d-att; 
     &amp;ut-d-att; 
     <b>&amp;xml-d-att;</b> 
    "                
 ></codeblock></p>
-    <p>Note that your <textent>included-domains</textent> value may be different. The example
+    <p>Note that your <codeph>included-domains</codeph> value may be different. The example
         shows the value used for the concept shell used by this tutorial's topics, which 
         includes only the highlight and utility domains.</p>
   </body>
-</subsection>
+</topic>

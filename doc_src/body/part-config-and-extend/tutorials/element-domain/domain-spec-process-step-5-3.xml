@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="domain-spec-process-step-5-3">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="domain-spec-process-step-5-3">
   <title>Element Domain Specialization Step 5-3: Test The Stylesheet</title>
   <body>
     <p>To test the stylesheet, deploy the plugin to your Toolkit and run the Toolkit's HTML transformation type against the test topic you created in Step 2</p>
@@ -18,4 +18,4 @@ Total time: 2 seconds</codeblock></p></li>
       </ol></p>
     <p>Now run the Toolkit's HTML transformation type against your test topic as you normally would. You should see the new formatting for the various element types.</p>
   </body>
-</subsection>  
+</topic>  

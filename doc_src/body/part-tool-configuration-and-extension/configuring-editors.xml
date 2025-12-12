@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE chapter PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:chapter" "chapter.dtd">
-<chapter
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="topic-id">
   <title>Configuring DITA-Aware Editors</title>
   <shortdesc>The set of DITA-aware editing tools is constantly growing. Each editor has its own mechanisms for using new document type shells and modules and for configuring and customizing its behavior.</shortdesc>
@@ -15,4 +15,4 @@
   <body>
     <p/>
   </body>
-</chapter>
+</topic>

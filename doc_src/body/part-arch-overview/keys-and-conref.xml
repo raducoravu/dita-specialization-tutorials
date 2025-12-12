@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd">
-<subsection
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="key-defs-and-conref">
   <title>Key definitions and content reference resolution</title>
   <prolog>
@@ -14,4 +14,4 @@
   <body>
     <p>Because content references may use key references, conref resolution processing cannot be fully performed until the key space has been constructed. However, processors may choose to do resolution of direct conrefs before doing key space construction. This could result in different effective key spaces in some cases, although it should be rare for key definitions to be managed in maps through conref rather than through topicref-based inclusions.</p>
   </body>
-</subsection>
+</topic>

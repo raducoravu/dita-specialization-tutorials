@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd">
-<subsection
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="topic-id">
   <title>Topic Constraint Module Step 5: Test the Document Type Shell</title>
   <body>
@@ -28,4 +28,4 @@
             document types. See <xref href="../../packaging-vocabulary-as-plugins.xml#topic-id"
                 format="dita"/>.</p>
   </body>
-</subsection>
+</topic>

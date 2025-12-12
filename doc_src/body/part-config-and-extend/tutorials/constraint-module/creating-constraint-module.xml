@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE chapter PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:chapter" "chapter.dtd">
-<chapter
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="topic-id">
   <title>Topic Constraint Module Tutorial</title>
   <shortdesc>Goal: Define a topic constraint module that limits the content of <xmlelement>p</xmlelement> to just character data and a few inline element types.</shortdesc>
@@ -34,4 +34,4 @@
     <p>For both DTD and XSD the task is the same: find the appropriate parameter entity (DTD) or group (XSD) that defines the base content model for <xmlelement>p</xmlelement> and redefine it to reflect the constrained content model.</p>
     <p>The constraint module is then integrated into the document type shells that need to impose these constraints.</p>
   </body>
-</chapter>
+</topic>

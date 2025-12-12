@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd">
-<subsection
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="ss4">
   <title>DITA Vocabulary Management: Modules</title>
   <body>
@@ -22,4 +22,4 @@
       how it relates to other modules.</p>
     <p>Thus you can think of DITA as an unbounded set of vocabulary modules and a set of tools for combining those modules into specific document types suited to specific requirements. </p>
   </body>
-</subsection>
+</topic>

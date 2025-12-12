@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="topic-specialization-step-2">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="topic-specialization-step-2">
   <title>Topic Specialization Step 2: Declare the Topic Module Element Types</title>
   <body>
     <p>The topic declarations go in a file called
@@ -10,4 +10,4 @@
     <p>To get started, the easiest thing to do is copy an existing topic module, either the one for the base you're specializing from, or one that is similar to the specialization you want to create.</p>
   </body>
 
-</subsection>
+</topic>

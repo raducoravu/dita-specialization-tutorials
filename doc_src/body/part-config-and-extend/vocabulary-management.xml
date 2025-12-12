@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd">
-<subsection
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="ss1">
   <title>XML Vocabularies and their Management</title>
   <body>
@@ -61,4 +61,4 @@
       that, as an industry, we've conclusively proved over the last 20 years or so that monolithic
       interchange document types do not work. </p>
   </body>
-</subsection>
+</topic>

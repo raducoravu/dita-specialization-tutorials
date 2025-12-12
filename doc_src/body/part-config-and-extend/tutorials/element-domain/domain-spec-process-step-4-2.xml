@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="domain-spec-step-4-2">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="domain-spec-step-4-2">
   <title>Step 4-2. Create a Test Topic</title>
   <body>
     <p>Create a test document that will test the new document type shell by using it as its DTD. Put this file in the same directory as the shell DTD or in a nearby directory. The file should look like this:<codeblock>
@@ -14,4 +14,4 @@
     <p>Remember that in XML all system identifiers are URIs, meaning you're specifying a URL, not a system-specific file path. So no backslashes if you're on Windows.</p>
     <p>Validate this document. It should be valid at this point as you haven't modified the document type shell file in any way.</p>
   </body>
-</subsection>
+</topic>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="topic-specialization-step-3">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="topic-specialization-step-3">
   <title>Topic Specialization Step 3. Package the Modules as a Toolkit Plugin</title>
   <body>
     <p>Now that the declarations are complete and validated, we need to package the declarations for use in documents. The best way to do this is to package it as an Open Toolkit plugin. Making it into a plugin does two things:<ul
@@ -65,7 +65,7 @@
                             directory as the modules works, because it's system IDs are resolvable,
                             but a different shell that uses the same modules fails because the URNs
                             are wrong and the system IDs are not resolvable. That is one reason to
-                            make sure that system IDs are not resolvable&mdash;it helps reveal this
+                            make sure that system IDs are not resolvable-it helps reveal this
                             sort of error.</p><p>Making this mistake can lead to baffling validation
                             errors from XML parsers, such as duplicate element type declarations or
                             other DTD syntax errors. Whenever you get those kinds of errors, the
@@ -109,4 +109,4 @@
       </ol></p>
     <p>Your new topic type is now ready to use.</p>
   </body>
-</subsection>  
+</topic>  

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd">
-<subsection
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="ss1">
   <title>Linking vs. Addressing</title>
   <shortdesc>Linking establishes relationships among things, links use addresses to point to those things.</shortdesc>
@@ -15,7 +15,7 @@
   <body>
     <p>In order to understand and make best use of links in any documentation application, but especially in DITA, it is important to understand the distinction between links as abstract objects and the plumbing that makes links work.</p>
   </body>
-  <subsection
+  <topic
     id="subsection_mjn_iis_gb">
     <title>Links as objects that represent relationships</title>
     <prolog>
@@ -168,8 +168,8 @@
       <p>Because it provides appropriate linking and addressing facilities and because of its
         modular nature, DITA is well suited to abstract linking applications.</p>
     </body>
-  </subsection>
-  <subsection
+  </topic>
+  <topic
     id="subsection_mfn_qjs_gb">
     <title>Links as sets of pointers</title>
     <prolog>
@@ -332,5 +332,5 @@
                 done by using <xmlelement>data</xmlelement> within topic prologs or non-topic elements (if
                 the identifiers don’t apply to the topic as a whole).</p>
     </body>
-  </subsection>
-</subsection>
+  </topic>
+</topic>

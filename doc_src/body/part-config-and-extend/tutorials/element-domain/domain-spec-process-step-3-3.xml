@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="domain-spec-step-3-3">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="domain-spec-step-3-3">
   <title>Step 3-3. Declare Domain Usage Text Entity</title>
   <body>
     <p>Declare the domain usage declaration text entity, which is named "<i>modulename</i>-d-att": <codeblock>
@@ -29,9 +29,9 @@
 </codeblock></p>
     <note
       type="other"
-      othertype="Common Error">Do not accidently declare the domains attribute contribution entity as a parameter entity. That is, you want this:<codeblock>&lt;!ENTITY xml-d-att ...</codeblock><b-i>not</b-i> this:<codeblock><linethrough>&lt;!ENTITY % xml-d-att</linethrough></codeblock><p>The " % " indicates a <i>parameter</i> entity and for the domains attribute contribution you want a <i>text</i> entity.</p></note>
+      othertype="Common Error">Do not accidently declare the domains attribute contribution entity as a parameter entity. That is, you want this:<codeblock>&lt;!ENTITY xml-d-att ...</codeblock><b>not</b> this:<codeblock><line-through>&lt;!ENTITY % xml-d-att</line-through></codeblock><p>The " % " indicates a <i>parameter</i> entity and for the domains attribute contribution you want a <i>text</i> entity.</p></note>
     <p>The keyword "<keyword>topic</keyword>" indicates that this is a topic domain rather than a map domain. The value "xml-d" is the name of this module, the "-d" indicating that it is a domain module and not a topic module.</p>
     <p>Note however that this domain specializes exclusively from an element type allowed in both maps and topics (<xmlelement>keyword</xmlelement>), so even though this is a topic domain it may be used with maps as well as topics.</p>
     <p>With the <filepath>xmlDomain.mod</filepath> and <filepath>xmlDomain.ent</filepath> files you now have a complete module declaration set ready to be integrated with any shell DTDs that need to use it.</p>
   </body>
-</subsection>
+</topic>

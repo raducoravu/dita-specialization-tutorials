@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd">
-<subsection
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="keys-and-keyrefs">
   <title>Keys and key references</title>
   <prolog>
@@ -273,4 +273,4 @@ See <b>&lt;xref keyref="changing-printer-cartridge-task"/></b>.
         <xmlelement>table</xmlelement> element with the ID <q>toner-cartridge-specs-table.</q>
     </p>
   </body>
-</subsection>
+</topic>

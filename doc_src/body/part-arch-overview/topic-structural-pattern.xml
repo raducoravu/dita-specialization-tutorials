@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd">
-<subsection
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="topic-id">
   <title>Topic Structural Patterns</title>
   <shortdesc>The primary unit of information organization in DITA is the topic. A topic is a titled, potentially-hierarchical container of content and metadata.</shortdesc>
@@ -109,4 +109,4 @@
       DITA-defined requirement that each topic be a separate XML document, although that is a fairly
       typical practice.</p>
   </body>
-</subsection>
+</topic>

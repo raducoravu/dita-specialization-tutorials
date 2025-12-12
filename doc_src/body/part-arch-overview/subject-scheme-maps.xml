@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE chapter PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:chapter" "chapter.dtd">
-<chapter
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="topic-id">
   <title>Value Lists, Taxonomies, and Ontologies: SubjectScheme Maps</title>
   <shortdesc>The SubjectScheme map specialization provides general facilities
@@ -62,7 +62,7 @@
             token, it is possible to generate RDF assertions or topic maps from subject scheme maps,
             for example, to serve websites or other information systems. </p>
   </body>
-  <subsection
+  <topic
     id="subsection_nwb_424_lf">
     <title>Defining and Using Attribute Value Lists</title>
     <prolog>
@@ -226,8 +226,8 @@
                     <q>prod-A</q> to <q>include.</q> This ability to have hierarchical subject lists
                 can make it much easier to manage and use complex conditional processing values.</p>
     </body>
-  </subsection>
-  <subsection
+  </topic>
+  <topic
     id="subsection_txm_gw4_lf">
     <title>Defining General Taxonomies</title>
     <prolog>
@@ -380,8 +380,8 @@ determined by education.&lt;/shortdesc>
       <p>The DITA specification’s discussion of the subject scheme map type has many good examples
                 and much more detail on the subject of combining schemas.</p>
     </body>
-  </subsection>
-  <subsection
+  </topic>
+  <topic
     id="subsection_fkr_zdv_lf">
     <title>Defining Ontologies with Subject Scheme Maps</title>
     <prolog>
@@ -571,5 +571,5 @@ role "spouse".&lt;/shortdesc>
           elements</q> section in the <cite>DITA Language Reference</cite> for a detailed discussion
         of subject relationship tables.</p>
     </body>
-  </subsection>
-</chapter>
+  </topic>
+</topic>

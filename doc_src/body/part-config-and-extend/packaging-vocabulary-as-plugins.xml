@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd">
-<subsection
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="topic-id">
   <title>Packaging Document Type Shells and Vocabulary Modules as Toolkit Plugins</title>
   <shortdesc>You can simplify deployment and testing of document type shells and vocabulary modules by packaging them as Open Toolkit plugins.</shortdesc>
@@ -144,4 +144,4 @@
         issues.]</draft-comment>
     </p>
   </body>
-</subsection>
+</topic>

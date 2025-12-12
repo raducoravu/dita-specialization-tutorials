@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE chapter PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:chapter" "chapter.dtd">
-<chapter
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="topic-id">
   <title>Conditional Processing: Filtering and Flagging</title>
   <shortdesc>DITA provides a general facility for binding elements to specific conditions to which they apply. This facility enables filtering and flagging of elements during processing.</shortdesc>
@@ -34,7 +34,7 @@
         processing</q> and <q>selection</q> because applicability is a more general term and better
       separates the properties of elements from they way processors might use those properties.</p>
   </body>
-  <subsection
+  <topic
     id="subsection_bbj_suf_jb">
     <title>Applicability vs. Effectivity</title>
     <shortdesc>Associating an element with selection properties is <term>applicability</term>. Using those properties to generate a specific statement or visual indicator is <term>effectivity</term>.</shortdesc>
@@ -75,8 +75,8 @@
         and the DITAVAL facility is not necessarily complete for all possible ways that effectivity
         could be implemented.</p>
     </body>
-  </subsection>
-  <subsection
+  </topic>
+  <topic
     id="ss1">
     <title>The DITA Conditional Processing Attributes</title>
     <shortdesc>DITA provides a built-in set of applicability attributes  as well as a general attribute, <xmlatt>props</xmlatt>, from which you can create specialized applicability attributes.</shortdesc>
@@ -221,8 +221,8 @@
         href="#ss2"
         format="dita"/>.</p>
     </body>
-  </subsection>
-  <subsection
+  </topic>
+  <topic
     id="ss2">
     <title>Filtering and Flagging During Processing (DITAVAL)</title>
     <shortdesc>The DITAVAL facility provides a standard way to configure and control how filtering and flagging is done for a given processing instance.</shortdesc>
@@ -481,8 +481,8 @@
         with</indexterm></indexterm><indexterm>version management</indexterm>
         and code control systems.</p>
     </body>
-  </subsection>
-  <subsection
+  </topic>
+  <topic
     id="ss3">
     <title>Custom Conditional Processing Attributes</title>
     <shortdesc>You can define your own applicability attributes by specializing from the <xmlatt>props</xmlatt> attribute.</shortdesc>
@@ -628,8 +628,8 @@
         that the filtering or flagging result should be the same for both ways
         of specifying the conditions.</p>
     </body>
-  </subsection>
-  <subsection
+  </topic>
+  <topic
     id="ss4">
     <title>Processing Implications Of Filtering</title>
     <shortdesc>The timing of when filtering is applied relative to other processing, such as content reference resolution and key space construction, can affect processing results.</shortdesc>
@@ -684,5 +684,5 @@
         longer necessary or appropriate. However, because large communities of Toolkit users depend
         on this behavior, it cannot be changed.</p>
     </body>
-  </subsection>
-</chapter>
+  </topic>
+</topic>

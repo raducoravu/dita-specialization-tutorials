@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="domains-and-topic-types">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="domains-and-topic-types">
   <title>Domains and Topic Types</title>
   <prolog>
     <author>W. Eliot Kimber</author>
@@ -53,4 +53,4 @@
     <p>In essence, domains can be "mixed in" to any topic types to provide phrase-level
         elements specific to the subject (or "information domain") you're writing about.</p>
   </body>
-</subsection>
+</topic>

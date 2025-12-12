@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd">
-<subsection
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="subsection-id">
   <title>DITA Configuration and Specialization Tutorials</title>
   <prolog>
@@ -55,4 +55,4 @@
       href="../body/part-config-and-extend/tutorials/document-type-shells/creating-document-type-shells.xml"
       format="dita"/>.</p>
   </body>
-</subsection>
+</topic>

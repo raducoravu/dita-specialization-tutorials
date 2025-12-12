@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="domain-att-spec-step-1">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="domain-att-spec-step-1">
   <title>Attribute Specialization Step 1: Create Domain Module Files</title>
   <body>
     <p>Step 1 is to create the attribute domain declaration as follows.<draft-comment>Are these two
@@ -26,4 +26,4 @@
     <p>You should of course add an appropriate descriptive header to the file as well as a little documentation for the attribute itself.</p>
     <p>This is all that is required for the attribute domain module (there is no separate .mod file, as there is for element domains).</p>
   </body>
-</subsection>
+</topic>

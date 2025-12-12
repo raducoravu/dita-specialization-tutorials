@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="topic-spec-step-4">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="topic-spec-step-4">
   <title>Topic Specialization Step 4: Extending the Toolkit To Support the Specialization</title>
   <body>
     <p>For many topic specializations you won't need to change the base Open Toolkit processing
@@ -60,4 +60,4 @@
       </ol>
     </p>
   </body>
-</subsection>  
+</topic>  

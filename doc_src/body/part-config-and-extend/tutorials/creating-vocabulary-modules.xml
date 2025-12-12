@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE chapter PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:chapter" "chapter.dtd">
-<chapter
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="topic-id">
   <title>Creating Vocabulary Modules (Specializations)</title>
   <shortdesc>The ability to create new, reusable, and interchangeable vocabulary modules is a
@@ -57,4 +57,4 @@
       default rules.</p>
     <p>The simplest specialization module is an attribute domain. Element domains can be quite simple as well, especially if you're just adding phrase-level elements or specializing from <xmlelement>data</xmlelement>.</p>
   </body>
-</chapter>
+</topic>

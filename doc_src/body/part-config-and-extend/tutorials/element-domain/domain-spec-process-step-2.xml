@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="domain-spec-step-two">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="domain-spec-step-two">
   <title>Element Domain Specialization Step 2: Declare The Domain Element Types</title>
   <shortdesc>The element type declarations go in a file called
                 <filepath><varname>modulename</varname>Domain.xml</filepath>.</shortdesc>
@@ -8,4 +8,4 @@
     <p>The easiest way to do this is to copy an existing domain module file and use it as a template for creating your new one. However, for this tutorial I will describe the process as though you were creating the file from scratch.</p>
   </body>
   
-</subsection>
+</topic>

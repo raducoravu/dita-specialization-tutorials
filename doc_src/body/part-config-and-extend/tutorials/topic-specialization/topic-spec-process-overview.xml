@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="topic-spec-process-overview">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="topic-spec-process-overview">
   <title>Topic Specialization Process Overview</title>
   <body>
     <p>A DTD-syntax topic specialization module consists of two files: a .ent file that defines entities used to integrate the module into document type shell DTDs, and a .mod file that declares the element types. Starting with DITA 1.2 structural modules should provide <xmlatt>domains</xmlatt> attribute declarations. </p>
@@ -16,4 +16,4 @@
       </ol>
     </p>
   </body>
-</subsection>
+</topic>

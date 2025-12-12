@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd">
-<subsection
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="topic-id">
   <title>About These Tutorials</title>
   <body>
@@ -14,4 +14,4 @@
       >https://github.com/dita4practitioners/dita-specialization-tutorials/issues</xref>. I'm also happy to discuss any aspect of the tutorial on the DITA users Yahoo! group, <xref
       href="dita-users@groups.yahoo.com" format="html" scope="external">dita-users@groups.yahoo.com</xref>.</p>
   </body>
-</subsection>
+</topic>

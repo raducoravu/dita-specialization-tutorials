@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="domain-spec-step-4-1">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="domain-spec-step-4-1">
   <title>Step 4-1. Setup Local Copy of Document Type Shell DTD</title>
   <body>
     <p>Make a local copy of the appropriate document type shell DTD. The DITA-defined declarations include both all the DITA-defined modules as well as base shells for all of the DITA-defined top-level topic and map types: map, topic, ditabase, bookmap, concept, reference, task, glossentry, and so on. These shells are intended to be used as the starting point for creating local customized shells that reflect your local topic and domain requirements.</p>
     <p>Copy the <filepath>concept.dtd</filepath> file from the DITA distribution to some location outside the scope of the DITA Open Toolkit (e.g., c:\mystuff\dita\dtd\concept.dtd). </p>
   </body>
-</subsection>
+</topic>

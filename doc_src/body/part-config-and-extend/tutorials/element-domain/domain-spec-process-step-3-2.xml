@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="domain-spec-step-3-2">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="domain-spec-step-3-2">
   <title>Step 3-2. Declare Type-Specific Integration Entities</title>
   <body>
     <p>Declare a type-specific entity for the keyword-based elements, listing all the element types in the module: <codeblock>
@@ -25,4 +25,4 @@
   ></b>
 </codeblock></p>
   </body>
-</subsection>
+</topic>

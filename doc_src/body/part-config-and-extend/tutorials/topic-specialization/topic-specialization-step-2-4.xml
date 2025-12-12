@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="topic-specialization-step-2-4">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="topic-specialization-step-2-4">
   <title>Step 2-4. Declare FAQ Question Topic Type Elements and Attributes</title>
   <body>
     <p>Per our markup design from step 1, we will need to declare the following specialized element types:
@@ -95,4 +95,4 @@
             indicates we've declared the necessary element types, at least minimally, but we need to
             declare the parameter entities as well.</p>
   </body>
-</subsection>
+</topic>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE chapter PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:chapter" "chapter.dtd">
-<chapter
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="topic-id">
   <title>Maps and Topics</title>
   <shortdesc>DITA’s markup design is based on an approach to content authored characterized by
@@ -82,7 +82,7 @@
       there is no reason not to use maps and many reasons to use them. Many people (and tools)
       assume that maps are required.</p>
   </body>
-  <subsection
+  <topic
     id="subsection_1f16405e-0128-4c5a-aefa-a1972c51c798">
     <title>Topics</title>
     <titlealts>
@@ -137,8 +137,8 @@
       <p>See <xref
         keyref="topic-structural-pattern"/> for a deeper discussion of topic markup.</p>
     </body>
-  </subsection>
-  <subsection
+  </topic>
+  <topic
     id="subsection_9830d280-ec0c-49b9-a27d-9cb028d4b665">
     <title>Maps</title>
     <shortdesc>Maps use hyperlinks (topic references) to organize topics into arbitrary structures.
@@ -210,7 +210,7 @@
         maps are ignored by output processors and do not contribute to the navigation tree defined
         by the root map.</p>
     </body>
-    <subsection
+    <topic
       id="subsection_p3f_pwl_3f">
       <title>Map Components</title>
       <prolog>
@@ -267,8 +267,8 @@
         <p>The rules for maps include rules for propagating metadata down the map tree, down the
           topicref tree, and from topicrefs to the topics they reference.</p>
       </body>
-    </subsection>
-    <subsection
+    </topic>
+    <topic
       id="subsection_jtj_21m_3f">
       <title>Topic references</title>
       <prolog>
@@ -412,8 +412,8 @@ for more on the DITA Open Toolkit.&lt;/p></codeblock></p>
           <li>Bind keys used for indirect addressing to resources (<q>key definitions</q>)</li>
           </ul></p>
       </body>
-    </subsection>
-    <subsection
+    </topic>
+    <topic
       id="subsection_zkz_312_kf">
       <title>Topicref Configuration Attributes</title>
       <prolog>
@@ -497,8 +497,8 @@ for more on the DITA Open Toolkit.&lt;/p></codeblock></p>
           contribute to the navigation table of contents. A value of <q>no</q> indicates it should
           not contribute, a value of <q>yes</q> that it should. The default is yes.</p>
       </body>
-    </subsection>
-    <subsection
+    </topic>
+    <topic
       id="subsection_1bg_1fn_3f">
       <title>Specializations of Topicref</title>
       <prolog>
@@ -597,8 +597,8 @@ for more on the DITA Open Toolkit.&lt;/p></codeblock></p>
                     all you’re doing is changing the tagname and not modifying the base content
                     model or attributes at all.</p>
       </body>
-    </subsection>
-    <subsection
+    </topic>
+    <topic
       id="subsection_sgl_z2n_3f">
       <title>Topicrefs, Navigation Trees, and Navigation Graphs</title>
       <prolog>
@@ -659,8 +659,8 @@ for more on the DITA Open Toolkit.&lt;/p></codeblock></p>
         <p>The typical rendition effect of relationship table links is to generate <q>See also</q>
           links at the ends of the topics linked.</p>
       </body>
-    </subsection>
-    <subsection
+    </topic>
+    <topic
       id="subsection_wtz_lkn_3f">
       <title>Creating Compound Maps</title>
       <prolog>
@@ -765,8 +765,8 @@ for more on the DITA Open Toolkit.&lt;/p></codeblock></p>
                     much less flexibility in controlling when map composition is done. In
                     particular, it doesn’t allow it to be done in the delivery system.</p>
       </body>
-    </subsection>
-    <subsection
+    </topic>
+    <topic
       id="subsection_jww_jqn_3f">
       <title>Chunking and Copy-To</title>
       <prolog>
@@ -922,8 +922,8 @@ for more on the DITA Open Toolkit.&lt;/p></codeblock></p>
         <p>See the section <q>Chunking</q> in the <cite>DITA Architectural Specification</cite> for
           a full explanation of chunking.</p>
       </body>
-    </subsection>
-    <subsection
+    </topic>
+    <topic
       id="subsection_fgv_v5d_kf">
       <title>Metadata Cascade In Maps</title>
       <prolog>
@@ -1013,6 +1013,6 @@ for more on the DITA Open Toolkit.&lt;/p></codeblock></p>
   ...</codeblock>
         </p>
       </body>
-    </subsection>
-  </subsection>
-</chapter>
+    </topic>
+  </topic>
+</topic>

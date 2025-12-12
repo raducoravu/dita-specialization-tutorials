@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="step2-3">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="step2-3">
   <title>Step 2-3. Declare Elements and Attributes</title>
   <body>
     <p>For each element type, create an element type and attribute declaration: <codeblock>
@@ -56,4 +56,4 @@
 ></codeblock></p>
     </note>
   </body>
-</subsection>
+</topic>

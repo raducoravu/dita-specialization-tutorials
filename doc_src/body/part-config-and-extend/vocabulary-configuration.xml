@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd">
-<subsection
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="ss2">
   <title>Configuration</title>
   <body>
@@ -20,4 +20,4 @@
       things, not adding new things. Therefore, it does not require invention, only analysis of
       requirements and modification of existing declarations.</p>
   </body>
-</subsection>
+</topic>

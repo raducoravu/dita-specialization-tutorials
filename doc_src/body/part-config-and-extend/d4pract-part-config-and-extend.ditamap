@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE pub-component-map PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:pub-component-map" "pub-component-map.dtd">
-<pub-component-map>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
   <title>Markup Configuration and Extension</title>
-  <keydefs>
+  <topicgroup>
     <topicmeta>
       <navtitle>Key Definitions</navtitle>
     </topicmeta>
-  </keydefs>
-  <part
+  </topicgroup>
+  <topicref
     href="part-config-and-extend.xml">
-    <chapter
+    <topicref
       href="tutorials/creating-vocabulary-modules.xml"/>
-    <chapter-mapref
+    <mapref
       href="understanding-specialization.ditamap"
       format="ditamap"/>
-    <chapter-mapref
+    <mapref
       href="tutorial-overview.ditamap"
       format="ditamap"/>
     <topicref
       href="tutorials/document-type-shells/document-type-shells.ditamap"
       format="ditamap"/>
-    <chapter-mapref
+    <mapref
       href="tutorials/constraint-module/simple-constraint-module-tutorial.ditamap"
       format="ditamap"/>
-    <chapter-mapref
+    <mapref
       href="tutorials/attribute-domain/domain-attribute-specialization-tutorial.ditamap"
       format="ditamap"/>
-    <chapter-mapref
+    <mapref
       href="tutorials/element-domain/domain-specialization-tutorial.ditamap"
       format="ditamap"/>
-    <chapter-mapref
+    <mapref
       href="tutorials/topic-specialization/topic-specialization-tutorial.ditamap"
       format="ditamap"/>
-    <chapter-mapref
+    <mapref
       href="tutorials/map-specialization/map-specialization-tutorial.ditamap"
       format="ditamap"/>
-  </part>
-</pub-component-map>
+  </topicref>
+</map>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd">
-<subsection
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="topic-id">
   <title>Configuring and Extending OxygenXML</title>
   <shortdesc>It is almost trivially easy to configure OxygenXML to enable editing of new map and topic types. OxygenXML also provides a number of extension facilities you can use to extend the editor.</shortdesc>
@@ -21,4 +21,4 @@
         author="WEK">talk about OxygenXML configuration, namely deploying vocabulary plugins to Oxygen's toolkit. Provide an overview of extension mechanisms in Oxygen.</draft-comment>
     </p>
   </body>
-</subsection>
+</topic>

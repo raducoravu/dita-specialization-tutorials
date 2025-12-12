@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="domain-spec-step-five">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="domain-spec-step-five">
   <title>Element Domain Specialization Step 5: Extend DITA Open Toolkit XHTML Processor</title>
   <shortdesc>Per the documentation of the types in the XML domain, we need to create XSLT templates for each of the different mentions to produce the appropriate output effects.</shortdesc>
   <body>
@@ -21,4 +21,4 @@
       </ol>
     </p>
   </body>
-</subsection>
+</topic>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="topic-specialization-step-2-1">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="topic-specialization-step-2-1">
   <title>Step 2-1. Create Test Case Document Instance</title>
   <body>
     <p>In your working area create a directory named <filepath>faq-question</filepath> and under
@@ -31,4 +31,4 @@
                 the DTD</q> message or open but say that it can't be validated. Now our goal is to
             make this file validate.</p>
   </body>
-</subsection>
+</topic>

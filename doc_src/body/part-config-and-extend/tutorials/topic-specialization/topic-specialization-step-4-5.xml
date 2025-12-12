@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="topic-spec-step-4-5">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="topic-spec-step-4-5">
   <title>Topic Specialization Step 4-5: Refine Markup Design for FAQ Question</title>
   <body>
     <p>As a result of our initial output processing implementation effort we've realized that we
@@ -111,4 +111,4 @@
 &lt;!ATTLIST question-statement  %global-atts;  class CDATA "- topic/title     concept/title     faq-question/faq-question-statement "></codeblock></p>
     <p>Redeploy the faq-question Toolkit plugin and try validating the updated test document. It should validate.</p>
   </body>
-</subsection>
+</topic>

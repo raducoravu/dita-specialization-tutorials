@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE chapter PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:chapter" "chapter.dtd">
-<chapter
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="topic-id">
   <title>Overview of DITA-Aware Tools</title>
   <shortdesc>The set of commercial and open-source DITA-aware tools is constantly growing. This chapter provides an overview of the different types tools available and then, for each type, the well-established tools in that category. </shortdesc>
@@ -18,19 +18,19 @@
     </p>
     <p>FIXME: Write this chapter</p>
   </body>
-  <subsection
+  <topic
     id="ss1">
     <title>Authoring Tools (Editors)</title>
     <shortdesc>Tools whose primary purpose is the creation and modification of DITA documents.</shortdesc>
-  </subsection>
-  <subsection
+  </topic>
+  <topic
     id="ss2">
     <title>Processing Tools (Processors)</title>
     <shortdesc>Tools whose primary purpose is the production of some new result from DITA documents, as typified by the DITA Open Toolkit.</shortdesc>
-  </subsection>
-  <subsection
+  </topic>
+  <topic
     id="ss3">
     <title>Component Management Systems (CMSes)</title>
     <shortdesc>Tools whose primary purpose is the storage and management of DITA documents in order to support authoring and processing for distributed teams.</shortdesc>
-  </subsection>
-</chapter>
+  </topic>
+</topic>

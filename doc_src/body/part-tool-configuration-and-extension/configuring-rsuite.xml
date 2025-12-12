@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE chapter PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:chapter" "chapter.dtd">
-<chapter
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="topic-id">
   <title>Configuring the RSuite CMS Component Management System</title>
   <prolog>
@@ -20,4 +20,4 @@
         author="WEK">Discuss how to configure RSuite to use new vocabulary modules, how to configure its use of the Toolkit, how to integrate and extend workflow, how to extend and customize DITA-aware ingestion and export.</draft-comment>
     </p>
   </body>
-</chapter>
+</topic>

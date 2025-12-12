@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="domain-spec-step-four">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="domain-spec-step-four">
   <title>Element Domain Specialization Step 4: Integrate The Module Into a Document Type Shell</title>
   <shortdesc><term>Integration</term> is the process of modifying a document type shell DTD to include different modules. It is also a purely mechanical process.</shortdesc>
   <body>
@@ -18,4 +18,4 @@
             files, which use the configuration parameter entities to define the effective values for
             content models and attribute lists.</p>
   </body>
-</subsection>
+</topic>

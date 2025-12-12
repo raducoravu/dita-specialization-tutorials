@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="domain-spec-process-step-5-1">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="domain-spec-process-step-5-1">
   <title>Element Domain Specialization Step 5-1: Create Blank Specialization-Specific XSLT Transform Plugin</title>
   <body>
     <p>Create a directory to hold the plugin. As for document type plugins (see <xref
@@ -36,4 +36,4 @@
       <li>Copying a plugin.xml file and forgetting to change the <xmlatt>id</xmlatt> value. This will cause confusing errors in the Toolkit processing that can be hard to diagnose.</li>
       </ul></note>
   </body>
-</subsection>  
+</topic>  

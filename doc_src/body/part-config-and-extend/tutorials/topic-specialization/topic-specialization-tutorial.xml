@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="topic-specialization-tutorial">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="topic-specialization-tutorial">
   <title>Topic Specialization Tutorial</title>
   <shortdesc>Goal: Define a new structural specialization of the base <xmlelement>topic</xmlelement> element type that supports the creation of FAQ (frequently asked question) topics.</shortdesc>
   <prolog>
@@ -99,4 +99,4 @@
             people expect to find these topic types in a publishing vocabulary.</p>
   </body>
   
-</subsection>  
+</topic>  

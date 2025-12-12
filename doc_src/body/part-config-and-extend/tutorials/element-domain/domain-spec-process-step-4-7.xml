@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="domain-spec-step-4-7">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="domain-spec-step-4-7">
   <title>Step 4-7. Test the integration</title>
   <prolog>
     <author>W. Eliot Kimber</author>
@@ -22,4 +22,4 @@
         For the XML domain, that means updating output processors to create the formatting
         effects for the different XML component mention elements.</p>
   </body>
-</subsection>
+</topic>

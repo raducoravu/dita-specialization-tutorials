@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd">
-<subsection
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="topic-id">
   <title>Creating an Attribute Domain Module</title>
   <prolog>
@@ -16,4 +16,4 @@
     <p>An attribute domain module defines exactly one global attribute specialized from either <xmlatt>base</xmlatt> or <xmlatt>props</xmlatt>. Attribute domains are normally used to define new applicability attributes (specializations of <xmlatt>props</xmlatt>).</p>
     <note>If your markup requirement is to add an attribute to a specific element type, that is not allowed in DITA for the simple reason that any attribute-based syntax for describing the specialization hierarchy of individual attributes would just be insane. In DITA, you can achieve the effect of element-specific attributes by using <xmlelement>data</xmlelement> or, more likely, specializations of <xmlelement>data</xmlelement>. Or you can declare the attribute as global and simply document where it is intended to be used.</note>
   </body>
-</subsection>
+</topic>

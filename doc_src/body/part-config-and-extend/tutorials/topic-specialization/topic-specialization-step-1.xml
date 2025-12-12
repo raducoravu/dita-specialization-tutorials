@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="topic-specialization-step-1">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="topic-specialization-step-1">
   <title>Topic Specialization Step 1: Design The Topic Element Types</title>
   <body>
     <p>For topic specialization you have to think about several things in designing your specialization: <ul>
@@ -121,4 +121,4 @@
 &lt;/faq-question></codeblock></p>
     <p>This design should be sufficient to get us going. Note that we are deferring all issues of how to organize the FAQ questions into FAQs using maps, where we know we already have everything we need to create sets of questions and to do things like group questions into titled groups.</p>
   </body>  
-</subsection>
+</topic>

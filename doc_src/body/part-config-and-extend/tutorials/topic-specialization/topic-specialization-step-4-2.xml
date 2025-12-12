@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="topic-spec-step-4-2">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="topic-spec-step-4-2">
   <title>Topic Specialization Step 4-2: Create Templates For Specialized Elements</title>
   <body>
     <p>For the FAQ Question specialization, we need to modify the presentation of
@@ -37,4 +37,4 @@
 
 &lt;/xsl:stylesheet></codeblock> </p>
   </body>
-</subsection>  
+</topic>  

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" 
-"subsection.dtd">
-<subsection
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="topic-id">
   <title>Data and Metadata in DITA</title>
   <shortdesc>DITA makes a fundamental distinction between data and metadata and provides general elements (<xmlelement>data</xmlelement>, <xmlelement>data-about</xmlelement>, <xmlelement>indexterm</xmlelement>, etc.) for capturing arbitrary metadata in almost any context.</shortdesc>
@@ -181,4 +180,4 @@
       output, meaning that entries in the topic metadata might not result in
       accurate page number references in a print index.</p>
   </body>
-</subsection>
+</topic>

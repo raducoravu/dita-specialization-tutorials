@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd">
-<subsection
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="topic-id">
   <title>Setting Up OxygenXML for DITA Editing</title>
   <prolog>
@@ -19,4 +19,4 @@
       </ol></p>
     <p>With DTD processing turned on for document type detection, Oxygen will recognize any DITA document as a DITA document regardless of what document type shell it uses as long as the <xmlatt>dita:DITAArchVersion</xmlatt> attribute is present. This will cause Oxygen to turn on it's built-in DITA-specific editing features, allowing you to edit any DITA map or topic document with full features.</p>
   </body>
-</subsection>
+</topic>

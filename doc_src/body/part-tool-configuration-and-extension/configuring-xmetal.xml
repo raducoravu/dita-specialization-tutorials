@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE chapter PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:chapter" "chapter.dtd">
-<chapter
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="topic-id">
   <title>Configuring and Extending the XMetal Editor</title>
   <shortdesc>The commercial XMetal editor from Just Systems provides a full-featured DITA authoring environment.</shortdesc>
@@ -19,4 +19,4 @@
     <draft-comment
       author="WEK">Discuss how configure XMetal to use new vocabulary modules. Discuss the various extension facilities of XMetal.</draft-comment>
   </body>
-</chapter>
+</topic>

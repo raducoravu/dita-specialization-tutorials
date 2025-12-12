@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE chapter PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:chapter" "chapter.dtd">
-<chapter
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="topic-id">
   <title>General Structural Patterns in DITA</title>
   <shortdesc>If you understand DITA’s basic structural patterns you can understand at least the
@@ -96,4 +96,4 @@
             particular markup question before spending too much time working out a new solution—it’s
             very likely that there’s a reasonable but non-obvious way to do what you want.</p>
   </body>
-</chapter>
+</topic>

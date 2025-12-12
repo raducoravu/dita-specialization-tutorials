@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="simple-constraint-tutorial">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="simple-constraint-tutorial">
   <title>Simple Constraint Module Tutorial</title>
   <shortdesc>Goal: Define a constraint module limits the content model for <xmlelement>p</xmlelement> to just character data and a few inline element types.</shortdesc>
   <prolog>
@@ -13,4 +13,4 @@
   <body>
     <p/>
  </body>
-</subsection>
+</topic>

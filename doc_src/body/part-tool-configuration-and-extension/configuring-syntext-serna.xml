@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE chapter PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:chapter" "chapter.dtd">
-<chapter
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="topic-id">
   <title>Configuring and Extending the Syntext Serna Editor</title>
   <shortdesc>The Syntext Serna editor is a full-featured DITA-aware editor. It is provided both in free open source form and a commercial package.</shortdesc>
@@ -22,4 +22,4 @@
         author="WEK">Talk about how to deploy vocabulary modules to Serna. Provide an overview of extension mechanisms in Oxygen.</draft-comment>
     </p>
   </body>
-</chapter>
+</topic>

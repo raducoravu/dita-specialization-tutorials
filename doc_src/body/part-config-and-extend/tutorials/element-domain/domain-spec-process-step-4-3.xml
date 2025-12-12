@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="domain-spec-step-4-3">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="domain-spec-step-4-3">
   <title>Step 4-3. Add .ent File to Shell</title>
   <prolog>
     <author>W. Eliot Kimber</author>
@@ -23,4 +23,4 @@ add the following parameter entity declaration and reference:
     <p>The system identifier needs to reflect the actual location of the xmlDomain.ent file. The
         example assumes that concept.dtd and xmlDomain.ent are in the same directory.</p>
   </body>
-</subsection>
+</topic>

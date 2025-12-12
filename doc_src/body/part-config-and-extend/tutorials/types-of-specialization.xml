@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="types-of-specialization">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="types-of-specialization">
   <title>The Types of Specialization</title>
   <prolog>
     <author>W. Eliot Kimber</author>
@@ -38,4 +38,4 @@
     to specialize a number of element types, account for more complex content models,
       and generally require more up-front design effort than the typical domain specialization.</p>
   </body>
-</subsection>
+</topic>

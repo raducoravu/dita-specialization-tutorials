@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="topic-spec-step-4-4cont">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="topic-spec-step-4-4cont">
   <title>Topic Specialization Step 4-4 (continued): Implement Specialization-Specific XSLT Processing</title>
   <body>
     <p>Having reworked the markup design to provide a short answer and answer details, pop back up to step 4-4
@@ -125,4 +125,4 @@
             or update the applicable CSS stylesheet to add the appropriate styling to the HTML
             pages. </p>
   </body>
-</subsection>  
+</topic>  

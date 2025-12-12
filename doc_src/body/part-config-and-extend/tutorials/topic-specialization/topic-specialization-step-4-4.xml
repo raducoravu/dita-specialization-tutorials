@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="topic-spec-step-4-4">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="topic-spec-step-4-4">
   <title>Topic Specialization Step 4-4: Implement Specialization-Specific XSLT Processing</title>
   <body>
     <p>For the FAQ question, the new processing is relatively easy: just generate <q>Q. </q> before
@@ -56,4 +56,4 @@
     <p>At this point, we put our XSLT work on hold for a moment and go back to the DTD declarations
     to refine the markup rules.</p>
   </body>
-</subsection>  
+</topic>  

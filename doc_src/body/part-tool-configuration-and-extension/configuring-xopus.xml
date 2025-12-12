@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd">
-<subsection
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="topic-id">
   <title>Configuring and Extending Xopus</title>
   <prolog>
@@ -20,4 +20,4 @@
         author="WEK">Discuss how to configure Xopus to use new vocabulary modules. Discuss Xopus's extension facilities.</draft-comment>
     </p>
   </body>
-</subsection>
+</topic>

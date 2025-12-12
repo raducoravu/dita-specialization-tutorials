@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd">
-<subsection
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="topic-id">
   <title>Map Specialization Step 2: Create New Document Type Shell DTD</title>
   <body>
@@ -93,4 +93,4 @@
     <p>At this point you have what should be a good document type shell and a document that uses it.</p>
     <p>The next step is to implement the faq-map type module.</p>
   </body>
-</subsection>
+</topic>

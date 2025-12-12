@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd">
-<subsection
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="topic-id">
   <title>Map Specialization XSD Step 2: Define faq-mapDomain Map Domain</title>
   <body>
@@ -280,4 +280,4 @@
             to use the URNs rather than relative URLs, and package it all up as a Toolkit
             plugin.</p>
   </body>
-</subsection>
+</topic>

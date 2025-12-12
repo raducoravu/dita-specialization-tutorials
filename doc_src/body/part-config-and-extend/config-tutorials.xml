@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE chapter PUBLIC "urn:pubid:dita4publishers.org:doctypes:dita:chapter" "chapter.dtd">
-<chapter
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="chapter-id">
   <title>Introduction to the Configuration and Extension Tutorials</title>
   <shortdesc>This section provides tutorial examples for creating DITA configuration and extension
@@ -44,4 +44,4 @@
         what follows, but the last two sentences seem out of place. I suggest you drop them. They
         don't add anything you haven't said elsewhere.</draft-comment></p>
   </body>
-</chapter>
+</topic>

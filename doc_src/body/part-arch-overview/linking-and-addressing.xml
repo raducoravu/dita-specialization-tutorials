@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE chapter PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:chapter" "chapter.dtd">
-<chapter
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="topic-id">
   <title>Pointing to Things: Linking and Addressing in DITA</title>
   <shortdesc>DITA relies heavily on the use of different kinds of links. DITA links may use direct addresses (URI references) or indirect addresses (key references).</shortdesc>
@@ -29,7 +29,7 @@
       linking and addressing concepts and then discuss how those concepts are
       implemented in DITA.</p>
   </body>
-  <sidebar
+  <topic
     id="sidebar_zrq_szq_1f">
     <title>Hypertext Jargon: A Twisty Maze of Passages</title>
     <body>
@@ -57,5 +57,5 @@
         applications handle linking, which can be very important for generating
         specific interactive renditions of DITA content from DITA source. </p>
     </body>
-  </sidebar>
-</chapter>
+  </topic>
+</topic>

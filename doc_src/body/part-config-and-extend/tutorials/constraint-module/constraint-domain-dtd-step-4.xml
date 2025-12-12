@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd">
-<subsection
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="topic-id">
   <title>Topic Constraint Module Step 4: Integrate the Constraint Module in a Document Type Shell</title>
   <body>
@@ -9,8 +9,8 @@
             directory. To make its purpose clear, you can name it something like
                 <filepath>topic-with-highlight-constraint.dtd</filepath> if you want.</p>
     <p>Edit the copied topic DTD file, search for the comment <q>DOMAINS ATTRIBUTE OVERRIDE,</q> and
-            update the declaration of the <textent>included-domains</textent> text entity to include
-            a reference to the <textent>topic-constraints</textent> text
+            update the declaration of the <codeph>included-domains</codeph> text entity to include
+            a reference to the <codeph>topic-constraints</codeph> text
             entity:<codeblock>
 &lt;!-- ============================================================= -->
 &lt;!--                    DOMAINS ATTRIBUTE OVERRIDE                 -->
@@ -52,4 +52,4 @@
     <p>The topic.dtd file you started with may or may not have the <q>CONTENT CONSTRAINT
                 INTEGRATION</q> comment. If it's not there, add it.</p>
   </body>
-</subsection>
+</topic>

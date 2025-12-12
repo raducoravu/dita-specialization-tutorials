@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd">
-<subsection
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="topic-id">
   <title>DTD Topic Type Shell Tutorial Step 2: Delete Unwanted Domain Modules</title>
   <body>
@@ -8,7 +8,7 @@
       id="ul_30c2ce01-d0a4-4640-acdf-9c4c96f1e34b">
       <li>A reference to the domain's .ent file</li>
       <li>References to the domain's extension parameter entities (one or more) in the domain extension parameter entities section of the shell.</li>
-      <li>A reference to the domain's <xmlatt>domains</xmlatt> attribute component text entity in the <textent>included-domains</textent> entity.</li>
+      <li>A reference to the domain's <xmlatt>domains</xmlatt> attribute component text entity in the <codeph>included-domains</codeph> entity.</li>
       <li>A reference to the domain's .mod file.</li>
       </ul></p>
     <p>Deleting a domain module means removing all four of these bits for a given domain.</p>
@@ -118,8 +118,8 @@
                         ">
 </codeblock></p></li>
       <li>Find the comment <q>DOMAINS ATTRIBUTE OVERRIDE,</q> which is the section that contains the
-                    declaration for the <textent>included-domains</textent> entity. Delete the
-                    reference to the <textent>pr-d-att</textent>
+                    declaration for the <codeph>included-domains</codeph> entity. Delete the
+                    reference to the <codeph>pr-d-att</codeph>
                         entity:<codeblock>...
 
 &lt;!-- ============================================================= -->
@@ -345,4 +345,4 @@
             and it gives you a ready place to add in any new domains you might integrate later. You
             can remove this declaration entirely if you want.</p>
   </body>
-</subsection>
+</topic>

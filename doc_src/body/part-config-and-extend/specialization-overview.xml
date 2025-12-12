@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd">
-<subsection
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="ss3">
   <title>Specialization</title>
   <body>
@@ -50,4 +50,4 @@
       processing, then you will <i>never</i> need to implement new processing for it. </p>
     <p>If your specialized markup does require specific processing, DITA-aware tools will tend to make adding that processing easier because they tend themselves to be modular. For example, the DITA Open Toolkit provides a general plugin mechanism that makes it easy to implement and deploy specialization-specific processing that extends the out-of-the-box processing using the smallest amount of custom code possible.</p>
   </body>
-</subsection>
+</topic>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd">
-<subsection
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="topic-id">
   <title>Map Specialization: XSD Version</title>
   <prolog>
@@ -15,4 +15,4 @@
     <p>As with the DTD version of the map specialization, we will create both a map domain and a map
             type.</p>
   </body>
-</subsection>
+</topic>

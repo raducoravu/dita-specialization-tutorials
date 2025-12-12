@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE part PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:part" "part.dtd">
-<part
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="topic-id">
   <title>Part I: End-to-End DITA Processing</title>
   <prolog>
@@ -14,4 +14,4 @@
     <p>This part focuses on the nuts and bolts of end-to-end DITA processing, that is, going from DITA content as authored, through component management to the production of various deliverable forms, such as PDF and compiled help, using typical tool sets</p>
     <p>See the full <cite>DITA for Practitioners: Vol 1, Architecture and Technology</cite>.</p>
   </body>
-</part>
+</topic>

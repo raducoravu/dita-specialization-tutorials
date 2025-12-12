@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE pub-component-map PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:pub-component-map" "pub-component-map.dtd">
-<pub-component-map>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
   <title>DITA Configuration and Specialization Tutorials</title>
-  <keydefs>
+  <topicgroup>
     <topicmeta>
       <navtitle>Key Definitions</navtitle>
     </topicmeta>
@@ -37,7 +37,7 @@
     <mapref
       href="keydefs-vol1.ditamap"
       format="ditamap"/>    
-  </keydefs>
+  </topicgroup>
   <topicref
     href="standalone-tutorials/config-and-extend-tutorials-standalone.xml">
     <topicref
@@ -72,4 +72,4 @@
       href="body/part-config-and-extend/tutorials/map-specialization/map-specialization-tutorial.ditamap"
       format="ditamap"/>
   </topicref>
-</pub-component-map>
+</map>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="domain-spec-step-one">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="domain-spec-step-one">
   <title>Element Domain Specialization Step 1: Design The Domain Element Types</title>
   <shortdesc>The first step in specialization is designing your markup.</shortdesc>
   <body>
@@ -32,7 +32,7 @@
           </dt>
           <dd>Identifies mentions of XML text entities. Intended typographic effect is to put the
                         name in monospaced font with a leading ampersand and trailing semicolon:
-                            <textent>a-text-entity-name</textent>. (To be pedantic about it, the
+                            <codeph>a-text-entity-name</codeph>. (To be pedantic about it, the
                         formatting specification actually produces an entity <i>reference</i> rather
                         than a mention of an entity <i>name</i>, but Charles Goldfarb and I are
                         probably the only people on the planet who would both notice the difference
@@ -83,4 +83,4 @@
             namespaces, so you have to make do with the simple convention of distinguishing bits in
             your names.</p>
   </body>
-</subsection>
+</topic>

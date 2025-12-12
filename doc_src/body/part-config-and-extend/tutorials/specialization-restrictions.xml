@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="specialization-restrictions">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="specialization-restrictions">
   <title>Restriction on Specialization: Cannot Relax Constraints</title>
   <prolog>
     <author>W. Eliot Kimber</author>
@@ -30,4 +30,4 @@
         your specialization is valid. If the answer is "no" then your specialization is 
         not valid.</p>
   </body>
-</subsection>
+</topic>

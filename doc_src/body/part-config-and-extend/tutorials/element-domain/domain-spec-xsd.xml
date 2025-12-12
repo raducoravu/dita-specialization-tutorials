@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="domain-spec-process-step-5-3">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="domain-spec-process-step-5-3">
   <title>Element Domain Specialization: XSD Version</title>
   <shortdesc>An XSD element domain module consists of a single XSD document that contains all the declarations for the domain.</shortdesc>
   <prolog>
@@ -146,4 +146,4 @@
       href="../../packaging-vocabulary-as-plugins.xml#topic-id"
       format="dita"/>.</p>
   </body>
-</subsection>  
+</topic>  

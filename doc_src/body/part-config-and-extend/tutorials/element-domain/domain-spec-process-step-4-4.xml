@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="domain-spec-step-4-4">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="domain-spec-step-4-4">
   <title>Step 4-4. Update Type-Specific Parameter Entities in Shell DTD</title>
   <prolog>
     <author>W. Eliot Kimber</author>
@@ -22,4 +22,4 @@
     <p>This declaration has the effect of including all the XML module's keyword-type elements wherever keyword
         is allowed in the base DITA-defined content models.</p>
   </body>
-</subsection>
+</topic>

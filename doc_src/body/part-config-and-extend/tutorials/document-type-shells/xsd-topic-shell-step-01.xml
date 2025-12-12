@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd">
-<subsection
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="topic-id">
   <title>XSD Topic Type Shell Tutorial Step 1: Copy Existing Shell</title>
   <body>
@@ -20,4 +20,4 @@
     <p>This document serves as your test document to verify that you haven't made any syntax errors in the new shell.</p>
     <p>Open this document in your XML editor (e.g., in OxygenXML) and validate it. It should be valid.</p>
   </body>
-</subsection>
+</topic>

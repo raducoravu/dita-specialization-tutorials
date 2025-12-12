@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="understanding-specialization">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="understanding-specialization">
   <title>Understanding Specialization</title>
   <shortdesc>Before you can design and implement your own specializations you must have a basic understanding of what specialization is and does.</shortdesc>
-</subsection>
+</topic>

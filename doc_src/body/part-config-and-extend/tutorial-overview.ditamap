@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE pub-component-map PUBLIC "urn:pubid:dita4publishers.org:doctypes:dita:dtd:pub-component-map" "pub-component-map.dtd">
-<pub-component-map>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
   <title>Introduction to Configuration and Extension</title>
-  <keydefs>
+  <topicgroup>
     <topicmeta>
       <navtitle>Key Definitions</navtitle>
     </topicmeta>
-  </keydefs>
-  <chapter
+  </topicgroup>
+  <topicref
     href="config-tutorials.xml">
-    <subsection
+    <topicref
       href="general-extension-development-methods.xml"/>
-    <sidebar
+    <topicref
       href="dtd-or-xsd.xml"/>
-    <sidebar
-      href="../sidebars/saxon-and-schema-aware-parsing.xml"/>
-    <subsection
+    <topicref
       href="packaging-vocabulary-as-plugins.xml"/>
-    <subsection
+    <topicref
       href="deploying-toolkit-plugins.xml"/>
-    <sidebar
-      href="../sidebars/public-identifiers.xml"/>
-  </chapter>
-</pub-component-map>
+  </topicref>
+</map>

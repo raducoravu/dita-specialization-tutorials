@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd">
-<subsection
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="topic-id">
   <title>Map Specialization Tutorial</title>
   <shortdesc>Goal: Define a new map type that represents an FAQ publication.</shortdesc>
@@ -47,4 +47,4 @@
             test-driven development suggests that we start with the map type and work toward
             implementing the map domain. </p>
   </body>
-</subsection>
+</topic>

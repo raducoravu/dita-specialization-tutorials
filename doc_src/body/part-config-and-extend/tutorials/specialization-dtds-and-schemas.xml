@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="dtds-and-schemas">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="dtds-and-schemas">
   <title>Specialization, DTDs, and Schemas</title>
   <prolog>
     <author>W. Eliot Kimber</author>
@@ -22,4 +22,4 @@
     <p>Once you understand how to create DTD-based specializations, transferring that 
         knowledge to schema-based specialization is straightforward.</p>
   </body>
-</subsection>
+</topic>

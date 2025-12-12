@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd">
-<subsection
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="topic-id">
   <title>Map Specialization Step 3: Create faq-map Map Type Module</title>
   <body>
@@ -131,4 +131,4 @@
       </ol></p>
     <p>At this point the faq-map map type should be ready to use as soon as the faq-mapDomain module is defined.</p>
   </body>
-</subsection>
+</topic>

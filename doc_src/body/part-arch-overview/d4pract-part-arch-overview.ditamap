@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE pub-component-map PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:pub-component-map" "pub-component-map.dtd">
-<pub-component-map>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
   <title>An Overview of the DITA Architecture</title>
   <part href="part-00.xml">
     <keydefs>
@@ -8,33 +8,33 @@
         <navtitle>Key Definitions</navtitle>
       </topicmeta>
     </keydefs>
-    <chapter href="vocabulary-composition.xml" keys="vocabulary-composition"/>
-    <chapter href="maps-and-topics.xml" keys="maps-and-topics"/>
-    <chapter href="general-structural-patterns.xml">
-      <subsection href="topic-structural-pattern.xml"/>
+    <topicref href="vocabulary-composition.xml" keys="vocabulary-composition"/>
+    <topicref href="maps-and-topics.xml" keys="maps-and-topics"/>
+    <topicref href="general-structural-patterns.xml">
+      <topicref href="topic-structural-pattern.xml"/>
       <?oxy_attributes keys="&lt;change type=&quot;inserted&quot; author=&quot;ekimber&quot; timestamp=&quot;20161202T114607-0600&quot; /&gt;"?>
-      <subsection href="data-and-metadata.xml" collection-type="sequence" keys="data-and-metadata"/>
-      <subsection href="mention-elements.xml"/>
-      <subsection href="sections-and-divs.xml"/>
-    </chapter>
-    <chapter href="linking-and-addressing.xml">
-      <subsection href="linking-vs-addressing.xml"/>
-      <subsection href="linking-and-reuse.xml" keys="linking-and-addressing"/>
-      <subsection href="ditas-direct-addressing-syntax.xml"/>
+      <topicref href="data-and-metadata.xml" collection-type="sequence" keys="data-and-metadata"/>
+      <topicref href="mention-elements.xml"/>
+      <topicref href="sections-and-divs.xml"/>
+    </topicref>
+    <topicref href="linking-and-addressing.xml">
+      <topicref href="linking-vs-addressing.xml"/>
+      <topicref href="linking-and-reuse.xml" keys="linking-and-addressing"/>
+      <topicref href="ditas-direct-addressing-syntax.xml"/>
       <?oxy_attributes keys="&lt;change type=&quot;inserted&quot; author=&quot;ekimber&quot; timestamp=&quot;20161203T080152-0600&quot; /&gt;"?>
-      <subsection href="keys-and-keyrefs.xml" keys="keys-and-key-references">
-        <subsection href="keys-as-variables.xml"/>
-        <subsection href="keyref-using-elements.xml"/>
-        <subsection href="constructing-key-spaces.xml"/>
-        <subsection href="keys-and-applicability.xml"/>
-        <subsection href="keys-and-conref.xml"/>
-      </subsection>
-      <subsection href="relationship-tables.xml" keys="relationship-tables"/>
-    </chapter>
+      <topicref href="keys-and-keyrefs.xml" keys="keys-and-key-references">
+        <topicref href="keys-as-variables.xml"/>
+        <topicref href="keyref-using-elements.xml"/>
+        <topicref href="constructing-key-spaces.xml"/>
+        <topicref href="keys-and-applicability.xml"/>
+        <topicref href="keys-and-conref.xml"/>
+      </topicref>
+      <topicref href="relationship-tables.xml" keys="relationship-tables"/>
+    </topicref>
     <?oxy_attributes keys="&lt;change type=&quot;inserted&quot; author=&quot;ekimber&quot; timestamp=&quot;20161202T103726-0600&quot; /&gt;"?>
-    <chapter href="conref-facility.xml" keys="conref-facility"/>
+    <topicref href="conref-facility.xml" keys="conref-facility"/>
     <?oxy_attributes keys="&lt;change type=&quot;inserted&quot; author=&quot;ekimber&quot; timestamp=&quot;20161202T105935-0600&quot; /&gt;"?>
-    <chapter href="applicability.xml" keys="applicability"/>
-    <chapter href="subject-scheme-maps.xml"/>
+    <topicref href="applicability.xml" keys="applicability"/>
+    <topicref href="subject-scheme-maps.xml"/>
   </part>
-</pub-component-map>
+</map>

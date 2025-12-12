@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE pub-component-map PUBLIC "urn:pubid:dita4publishers.org:doctypes:dita:dtd:pub-component-map" "pub-component-map.dtd">
-<pub-component-map>
-  <keydefs>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+  <topicgroup>
     <topicmeta>
       <navtitle>Key Definitions</navtitle>
     </topicmeta>
@@ -15,27 +15,16 @@
         <linktext>Volume 2: Element Domain Specialization Tutorial</linktext>
       </topicmeta>
     </keydef>
-    <keydef d4p_renditionTarget="epub html"
-      href="body/part-end-to-end/graphics/keyref-to-graphic-01.png" format="png" scope="local"
-      keys="keyref-to-graphic-01" navtitle="keyref-to-graphic-01.png"/>
-    <keydef href="body/part-end-to-end/graphics/keyref-to-graphic-01.svg" format="svg" scope="local"
-      keys="keyref-to-graphic-01" navtitle="keyref-to-graphic-01.svg"/>
-    <keydef d4p_renditionTarget="epub html"
+    <keydef
       href="body/part-arch-overview/graphics/abstract-extended-link.png" format="png" scope="local"
       keys="abstract-extended-link" navtitle="abstract-extended-link.png"/>
     <keydef href="body/part-arch-overview/graphics/abstract-extended-link.svg" format="svg"
       scope="local" keys="abstract-extended-link" navtitle="abstract-extended-link.svg"/>
-    <keydef d4p_renditionTarget="epub html"
+    <keydef
       href="body/part-arch-overview/graphics/link-graph-01.gv.png" format="png" scope="local"
       keys="link-graph-01.gv" navtitle="link-graph-01.gv (PNG)"/>
     <keydef href="body/part-arch-overview/graphics/link-graph-01.gv.svg" format="svg" scope="local"
       keys="link-graph-01.gv" navtitle="link-graph-01.gv (SVG)"/>
-    <keydef keys="xml-press-logo-no-url" d4p_renditionTarget="epub html" format="png" scope="local"
-      href="frontmatter/images/Logo-no-URL.png" navtitle="xml-press-logo-no-url (PNG)"/>
-    <keydef keys="xml-press-logo-no-url" format="svg" scope="local"
-      href="frontmatter/images/Logo-no-URL.svg" navtitle="xml-press-logo-no-url (SVG)"/>
-    <keydef keys="subsection_f4571967-08a8-409c-b6c8-55e94c052681"
-      href="body/where-to-start.xml#subsection_f4571967-08a8-409c-b6c8-55e94c052681"/>
     <keydef href="https://github.com/oasis-open/dita-rng-converter" format="html" scope="external"
       navtitle="DITA RNG Converter" keys="dita-rng-converter"/>
     <keydef href="http://www.xiruss.org/tutorials/dita-specialization/"
@@ -53,5 +42,5 @@
     <keydef href="http://dfst.org" keys="website-d4st" format="org" scope="external"
       navtitle="http://d4st.org"/>
     <?oxy_insert_end?>
-  </keydefs>
-</pub-component-map>
+  </topicgroup>
+</map>

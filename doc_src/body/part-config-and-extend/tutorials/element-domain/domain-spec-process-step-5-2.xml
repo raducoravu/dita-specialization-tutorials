@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="domain-spec-process-step-5-2">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="domain-spec-process-step-5-2">
   <title>Element Domain Specialization Step 5-2: Implement Type-Specific XSLT Templates</title>
   <prolog>
     <author>W. Eliot Kimber</author>
@@ -92,4 +92,4 @@
     <xmlelement>fo:inline</xmlelement> elements instead of HTML <xmlelement>code</xmlelement> or <xmlelement>span</xmlelement>
     elements.</p>
   </body>
-</subsection>  
+</topic>  

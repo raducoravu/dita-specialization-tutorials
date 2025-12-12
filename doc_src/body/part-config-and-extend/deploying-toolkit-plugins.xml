@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd">
-<subsection
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="topic-id">
   <title>Deploying Toolkit Plugins</title>
   <prolog>
@@ -192,4 +192,4 @@ Total time: 2 seconds</codeblock></p>
         <varname>dita-ot-dir</varname> Ant property on the command line like
       so:<codeblock>ant -Ddita-ot-dir=/Applications/oxygen_12_beta/frameworks/dita/DITA-OT/</codeblock></p>
   </body>
-</subsection>
+</topic>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE pub-component-map PUBLIC "urn:pubid:dita4publishers.org:doctypes:dita:dtd:pub-component-map" "pub-component-map.dtd">
-<pub-component-map>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
   <title>Key definitions for Part 2, Architectural Overview</title>
   <keydefs>
     <keydef keys="subject-scheme-maps" href="subject-scheme-maps.xml#topic-id"/>
@@ -15,4 +15,4 @@
     <keydef keys="topic-structural-pattern" href="topic-structural-pattern.xml#topic-id"/>
     <keydef keys="part-00" href="part-00.xml#topic-id"/>
   </keydefs>
-</pub-component-map>
+</map>

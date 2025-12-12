@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE chapter PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:chapter" "chapter.dtd">
-<chapter
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="topic-id"
   ditaarch:DITAArchVersion="1.2" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/">
   <title>Vocabulary Composition and Specialization</title>
@@ -65,7 +65,7 @@
                 <term>specialization</term>, that allows the creation of new markup while ensuring
             interchangeability and interoperability.</p>
   </body>
-  <subsection
+  <topic
     id="subsection_614fb512-4d88-4ece-b844-a7eb6341d4fa">
     <title>Vocabulary Modules and DITA Document Types</title>
     <prolog>
@@ -184,8 +184,8 @@
                 their root elements must be specializations of <xmlelement>topic</xmlelement> or
                     <xmlelement>map</xmlelement>.</p>
     </body>
-  </subsection>
-  <subsection
+  </topic>
+  <topic
     id="subsection_16e09f8b-9b00-487b-84dd-a90ed1471396">
     <title>Constraints and Vocabulary Module Integration</title>
     <body>
@@ -250,8 +250,8 @@
         You cannot paste from less constrained to more constrained without risking making the result
         invalid.</p>
     </body>
-  </subsection>
-  <subsection
+  </topic>
+  <topic
     id="subsection_h3v_wrl_3f">
     <title>Specialization</title>
     <body>
@@ -350,8 +350,8 @@
         specialized vocabulary is covered in detail in <cite>Volume
         2</cite>.</p>
     </body>
-  </subsection>
-  <subsection
+  </topic>
+  <topic
     id="subsection_lwd_k5h_4f">
     <title>DITA and Namespaces</title>
     <prolog>
@@ -574,4 +574,4 @@
                 since all modern XML processing languages can do that easily.</p>
       <p>But for now, DITA cannot use namespaces for DITA-based vocabulary.</p>
     </body>
-  </subsection></chapter>
+  </topic></topic>

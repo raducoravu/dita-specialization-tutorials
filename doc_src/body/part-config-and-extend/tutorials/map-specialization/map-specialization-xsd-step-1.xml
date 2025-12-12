@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd">
-<subsection
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="topic-id">
   <title>Map Specialization XSD Step 1: Define faq-map Map Type</title>
   <body>
@@ -190,4 +190,4 @@
     <p>At this point the FAQ-map map type document type shell and module are complete. Now we just
             need to define the FAQ-map map domain.</p>
   </body>
-</subsection>
+</topic>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE pub-component-map PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:pub-component-map" "pub-component-map.dtd">
-<pub-component-map>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
   <title>Tool Configuration and Extension</title>
   <part
     href="part-03.xml">
@@ -9,9 +9,9 @@
         <navtitle>Key Definitions</navtitle>
       </topicmeta>
     </keydefs>
-    <chapter
+    <topic
       href="overview-of-dita-aware-tools.xml"/>
-    <chapter
+    <topic
       href="config-and-extend-dita-ot.xml"/>
   </part>
-</pub-component-map>
+</map>

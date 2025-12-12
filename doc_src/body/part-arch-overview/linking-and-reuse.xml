@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd">
-<subsection
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="ss4">
   <title>Linking, Addressing, and Reuse: The Need for Indirection</title>
   <shortdesc>Element-to-element links present inherent reuse challenges. To overcome these
@@ -141,4 +141,4 @@
       addressing to make the content reusable and the addresses manageable without resorting to
       non-standard tricks or workarounds.</p>
   </body>
-</subsection>
+</topic>

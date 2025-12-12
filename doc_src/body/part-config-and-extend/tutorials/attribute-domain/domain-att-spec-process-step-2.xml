@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd"> 
-<subsection id="domain-att-spec-step-2">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd"> 
+<topic id="domain-att-spec-step-2">
   <title>Attribute Specialization Step 2: Integrate With Document Type Shell</title>
   <prolog>
     <metadata>
@@ -32,9 +32,9 @@
                 <parameterentity>univ-atts</parameterentity> parameter entity, making this new attribute available
             on most elements (some elements, such as title, are not selection candidates).</p>
     <p>Find the comment that reads <q>DOMAINS ATTRIBUTE OVERRIDE.</q> Following that you should see
-            the declaration of the text entity <textent>included-domains</textent> and it should
+            the declaration of the text entity <codeph>included-domains</codeph> and it should
             include references to a number of <q><i>x</i>-d</q> text entities.</p>
-    <p>To this entity add a reference to the <textent>phase-of-moon-d-att</textent> text entity: <codeblock>&lt;!ENTITY included-domains 
+    <p>To this entity add a reference to the <codeph>phase-of-moon-d-att</codeph> text entity: <codeblock>&lt;!ENTITY included-domains 
    "&amp;hi-d-att;
     &amp;ut-d-att;
     <b>&amp;phase-of-moon-d-att;</b>
@@ -58,4 +58,4 @@
                     won't be reported by XML parsers.</li>
       </ul></note>
   </body>
-</subsection>
+</topic>

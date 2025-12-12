@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd">
-<subsection
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="topic-id">
   <title>Using Keys for <q>Variable</q> Text</title>
   <shortdesc>A key-defining topicref may both point to a resource and include subelements to use as
@@ -83,4 +83,4 @@
       a key-based solution that satisfies all the requirements. In any case, the need for scoped
       keys is undeniable regardless of whether they are used as variables, too.</p>
   </body>
-</subsection>
+</topic>

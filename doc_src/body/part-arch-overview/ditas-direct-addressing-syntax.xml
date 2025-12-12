@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd">
-<subsection
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="ss2">
   <title>DITA’s Direct Addressing Syntax</title>
   <shortdesc>DITA uses URIs and a DITA-specific fragment identifier syntax to directly address components of DITA documents.</shortdesc>
@@ -104,4 +104,4 @@
       identifier syntax is determined by the target resource and is not defined or constrained by
       DITA. </p>
   </body>
-</subsection>
+</topic>

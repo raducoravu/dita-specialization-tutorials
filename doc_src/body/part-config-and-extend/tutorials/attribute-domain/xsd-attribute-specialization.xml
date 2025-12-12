@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd">
-<subsection
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="topic-id">
   <title>Attribute Specialization: XSD Version</title>
   <prolog>
@@ -66,4 +66,4 @@
 &lt;/xs:schema></codeblock></p>
     <p>This example is a topic shell that integrates only the attribute domain. In practice you would normally include a number of element domains in addition to any attribute domains.</p>
   </body>
-</subsection>
+</topic>

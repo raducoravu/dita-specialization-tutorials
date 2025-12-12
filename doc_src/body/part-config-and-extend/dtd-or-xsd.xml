@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE subsection PUBLIC "urn:pubid:dita4practitioners.com:doctypes:dita:subsection" "subsection.dtd">
-<subsection
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic
   id="topic-id">
   <title>DTD or XSD?</title>
   <shortdesc>DITA vocabulary modules can be implemented using DTDs or XML schema documents (XSD). Which should you use?</shortdesc>
@@ -56,4 +56,4 @@
       module implementation.</p>
     <p>Until that time, however, the easiest and safest route is to stick with DTD-based shells and vocabulary modules.</p>
   </body>
-</subsection>
+</topic>
